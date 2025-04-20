@@ -1,4 +1,6 @@
 import style from "./Header.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -10,11 +12,7 @@ export default function Header() {
         <div className={style.contact}>
           <ul className={style.list}>
             <li>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="/">
                 <h2>Home</h2>
               </a>
             </li>
@@ -43,7 +41,7 @@ export default function Header() {
                 rel="noopener noreferrer"
               >
                 <h2>
-                  <i className={style.icon}>P</i>
+                  <FontAwesomeIcon icon={faUser} />
                 </h2>
               </a>
             </li>

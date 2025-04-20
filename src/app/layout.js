@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import FontAwesomeConfig from "./fontawesome";
 
 export const metadata = {
   title: "QuickTraderSetup",
@@ -11,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pl">
+      <head>
+        <FontAwesomeConfig />
+      </head>
       <body>
         <main>
           <Header />

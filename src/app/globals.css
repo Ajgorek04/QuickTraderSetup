@@ -3,9 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Winky Rough", sans-serif;
 }
 
-/* Tło strony */
 body {
   background-image: url("../../public/background.jpg");
   display: flex;
