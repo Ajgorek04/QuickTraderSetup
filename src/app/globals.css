@@ -1,0 +1,21 @@
+/* Resetowanie domyślnych marginów i paddingów */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tło strony */
+body {
+  background-image: url("../../public/background.jpg");
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 1% 1% 0% 1%;
+}

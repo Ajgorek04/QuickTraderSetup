@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1%;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
   color: #fff;
+  font-family: "Winky Rough", sans-serif;
 }
 
 .logo {
@@ -30,7 +30,7 @@
   font-size: 0.85rem;
 }
 
-i {
+.icon {
   font-size: 2rem;
   color: #fff;
   transition: transform 0.5s ease, color 0.5s ease;

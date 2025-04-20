@@ -43,7 +43,7 @@ export default function Header() {
                 rel="noopener noreferrer"
               >
                 <h2>
-                  <i class="fa fa-user"></i>
+                  <i className={style.icon}>P</i>
                 </h2>
               </a>
             </li>
