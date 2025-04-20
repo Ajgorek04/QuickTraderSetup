@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-family: "Teko", sans-serif;
+}
+
+.contact {
+  display: flex;
+  gap: 1rem;
+}
+
+.list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.list li {
+  font-size: 0.85rem;
+}
+
+i {
+  font-size: 2rem;
+  color: #fff;
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #009199;
+  transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.list li a:hover {
+  transform: scale(1.15);
+  color: #00c2cc;
+}
+
+.list li a h2:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s ease, color 0.5s ease;
+  color: #00c2cc;
+}
+
+.list li a i:hover {
+  transform: scale(1.15);
+  color: #ccc;
+}
+
+.list li a,
+.list li a h2,
+.list li a i {
+  transition: transform 0.5s ease, color 0.5s ease;
+}
