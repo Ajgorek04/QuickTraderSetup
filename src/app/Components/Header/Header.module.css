@@ -9,7 +9,7 @@
 }
 
 .logo {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .contact {
@@ -26,13 +26,7 @@
 }
 
 .list li {
-  font-size: 0.85rem;
-}
-
-.icon {
-  font-size: 2rem;
-  color: #fff;
-  transition: transform 0.5s ease, color 0.5s ease;
+  font-size: 0.75rem;
 }
 
 .list li a {
@@ -61,4 +55,8 @@
 .list li a h2,
 .list li a i {
   transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.list li:last-child {
+  font-size: 1.1rem;
 }

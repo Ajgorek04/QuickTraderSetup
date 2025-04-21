@@ -17,20 +17,12 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="/cheatscheets">
                 <h2>Cheat Scheets</h2>
               </a>
             </li>
             <li>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="/contact">
                 <h2>Contact</h2>
               </a>
             </li>
