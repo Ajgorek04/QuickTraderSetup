@@ -7,7 +7,7 @@ export default function Home() {
         <h1>Welcome to Quick Trader Setup</h1>
         <p>Your one-stop solution for quick and efficient trading setups.</p>
       </div>
-      <a href="/tools">
+      <a href="/cheatscheets">
         <button className={styles.button}>
           <h2>Get Started &rarr;</h2>
         </button>

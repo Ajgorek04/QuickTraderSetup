@@ -7,8 +7,11 @@ export default function CheatScheetsPage() {
     <div className={styles.content}>
       <CheatScheetsHeader />
       <div className={styles.contentCards}>
-        <CheatScheetsCards text={"a"} />
-        <CheatScheetsCards text={"a"} />
+        <CheatScheetsCards text={"Fibonacci Retracement"} img={"fibo.png"} />
+        <CheatScheetsCards
+          text={"Support & Resistance"}
+          img={"supportandres.jpg"}
+        />
         <CheatScheetsCards text={"a"} />
         <CheatScheetsCards text={"a"} />
         <CheatScheetsCards text={"a"} />
