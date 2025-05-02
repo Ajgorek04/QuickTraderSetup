@@ -6,6 +6,15 @@
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+  color: #fff;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.content a:hover {
+  scale: 1.05;
 }
 
 .contentCards {
