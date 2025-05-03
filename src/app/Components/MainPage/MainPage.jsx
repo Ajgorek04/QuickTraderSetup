@@ -7,10 +7,15 @@ export default function Home() {
         <h1>Welcome to Quick Trader Setup</h1>
         <p>Your one-stop solution for quick and efficient trading setups.</p>
       </div>
+
       <a href="/cheatscheets">
         <button className={styles.button}>
           <h2>Get Started &rarr;</h2>
         </button>
+      </a>
+
+      <a href="/faq" className={styles.faqLink}>
+        <p>📘 FAQ – Dowiedz się więcej o projekcie</p>
       </a>
     </div>
   );

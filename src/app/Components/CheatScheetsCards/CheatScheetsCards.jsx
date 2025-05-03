@@ -7,9 +7,6 @@ export default function CheatScheetsCards({ text, img }) {
     <div
       className={styles.card}
       style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
-      <div className={styles.cardHeader}>{text}</div>
-      <div className={styles.cardInfo}>info</div>
-    </div>
+    ></div>
   );
 }

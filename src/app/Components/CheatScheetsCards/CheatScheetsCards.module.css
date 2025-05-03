@@ -7,25 +7,10 @@
   border-radius: 1rem;
   overflow: hidden;
   color: #fff;
-  background-color: #000;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.cardImg {
-  height: 150px;
-}
-
-.cardImg img {
-  width: 100%;
-}
-
-.cardHeader {
-  padding: 0.25rem;
-  text-align: center;
-}
-
-.cardInfo {
-  text-align: center;
+.card img {
 }

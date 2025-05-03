@@ -25,3 +25,15 @@
 .button:hover {
   background-color: #0056b3;
 }
+
+.faqLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.75rem;
+  transition: color 0.3s ease;
+}
+
+.faqLink:hover {
+  color: #80ffff;
+  text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.aboutContainer {
+  padding: 2rem;
+  color: #fff;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.aboutContainer h1,
+.aboutContainer h2 {
+  color: #b3ffff;
+}
+
+.aboutContainer ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+.aboutContainer details {
+  margin-top: 1rem;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

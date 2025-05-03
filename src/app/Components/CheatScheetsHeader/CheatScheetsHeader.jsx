@@ -9,20 +9,9 @@ export default function CheatScheetsHeader() {
       <div className={styles.content}>
         <ul className={styles.list}>
           <li>fibonacci retracement</li>
+          <li>support & resistance</li>
           <li>point of control</li>
-          <li>resistance & support</li>
-          <li>fibonacci retracement</li>
-          <li>point of control</li>
-          <li>resistance & support</li>
-          <li>fibonacci retracement</li>
-          <li>point of control</li>
-          <li>resistance & support</li>
-          <li>fibonacci retracement</li>
-          <li>point of control</li>
-          <li>resistance & support</li>
-          <li>fibonacci retracement</li>
-          <li>point of control</li>
-          <li>resistance & support</li>
+          <li>vwap</li>
         </ul>
       </div>
     </header>
