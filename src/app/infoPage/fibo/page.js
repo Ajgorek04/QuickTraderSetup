@@ -1,4 +1,4 @@
-import FiboPageComponent from "@/app/components/FiboPageCompontent/FiboPageComponent";
+import FiboPageComponent from "@/app/components/FiboPageComponent/FiboPageComponent";
 
 export default function FiboPage() {
   return (

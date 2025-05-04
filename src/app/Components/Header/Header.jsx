@@ -1,6 +1,4 @@
 import style from "./Header.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -17,8 +15,8 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="/cheatscheets">
-                <h2>Cheat Scheets</h2>
+              <a href="/cheatsheets">
+                <h2>Cheat Sheets</h2>
               </a>
             </li>
             <li>

@@ -8,7 +8,7 @@ export default function Home() {
         <p>Your one-stop solution for quick and efficient trading setups.</p>
       </div>
 
-      <a href="/cheatscheets">
+      <a href="/cheatsheets">
         <button className={styles.button}>
           <h2>Get Started &rarr;</h2>
         </button>

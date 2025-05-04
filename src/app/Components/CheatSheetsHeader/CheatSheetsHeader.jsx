@@ -1,6 +1,6 @@
-import styles from "./CheatScheetsHeader.module.css";
+import styles from "./CheatSheetsHeader.module.css";
 
-export default function CheatScheetsHeader() {
+export default function CheatSheetsHeader() {
   return (
     <header className={styles.header}>
       <div>
