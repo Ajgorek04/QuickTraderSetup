@@ -64,7 +64,7 @@ export default function FiboPageComponent() {
         <p>
           W trendzie wzrostowym: od dołka do szczytu. W spadkowym – odwrotnie.
         </p>
-        <Image src={fibo1} />
+        <Image src={fibo1} alt="fibo1" />
         <p>
           W trendzie wzrostowym używając fibo retracement chcemy znaleźć wejście
         </p>
@@ -73,7 +73,7 @@ export default function FiboPageComponent() {
         <p>
           W mocnym trendzie wzrostowym gdzie momentum jest mocno zauważalne,
           wtedy dla nas kluczowe jest fibo 0.382, ponieważ w mocnym trendzie
-          wzrostowym zejście do 0.382 jest bardziej realne niz do az 0.5 /
+          wzrostowym zejście do 0.382 jest bardziej realne niż do aż 0.5 /
           0.618. <br />
           <br />
           Możemy przykładowo połączyć poziom 0.382 z respektowaną strefą
@@ -91,11 +91,11 @@ export default function FiboPageComponent() {
       </section>
 
       <section>
-        <h2>Zbieranie Take Profitów</h2>
+        <h2>4. Zbieranie Take Profitów</h2>
         <p>
           TP można zbierać przy poziomach Fibo. <br />
           <br />
-          Jeśli jesteśmy przykładowo w shorcie i nie zbieraliśmy jeszcze TP idąc
+          Jeśli przykładowo jesteśmy w shorcie i nie zbieraliśmy jeszcze TP idąc
           w dół, a wykres zaczyna zawracać to możemy zbierać profity na
           kolejnych poziomach, najlepiej aż do 0.618 bo jeśli go wyłamiemy to
           może być niebezpieczny powrót na BE.
@@ -104,7 +104,7 @@ export default function FiboPageComponent() {
       </section>
 
       <section>
-        <h2>4. Fibonacci Expansion – Wyznaczanie targetów</h2>
+        <h2>5. Fibonacci Expansion – Wyznaczanie targetów</h2>
         <p>
           Expansion pozwala wyznaczać TP przy kontynuacji trendu <br />
           Jak zaznaczamy:
@@ -116,21 +116,20 @@ export default function FiboPageComponent() {
         </ul>
         <Image src={fibo5} alt="fibo5" />
 
-        <p>
-          Poziomy TP:
-          <ul>
-            <li>
-              1. Poziom 1.0 (100%) - równowartość swinga w ktorego wchodzilismy
-              - 100% tego ruchu
-            </li>
-            <li>2. Poziom pomiędzy 1.313 a 1.272</li>
-            <li>3. Poziom 1.618 - często końcowy target</li>
-          </ul>
-        </p>
+        <p>Poziomy TP:</p>
+
+        <ul>
+          <li>
+            1. Poziom 1.0 (100%) - równowartość swinga w ktorego wchodzilismy -
+            100% tego ruchu
+          </li>
+          <li>2. Poziom pomiędzy 1.313 a 1.272</li>
+          <li>3. Poziom 1.618 - często końcowy target</li>
+        </ul>
       </section>
 
       <section>
-        <h2>5. Fibonacci Extended – Głębsza analiza kontynuacji</h2>
+        <h2>6. Fibonacci Extended – Głębsza analiza kontynuacji</h2>
         <p>
           Będzie pokazywało zakres danego ruchu zaznaczonego swinga pod
           kontynuajcę np. ruchu wzrostowego.
@@ -165,7 +164,7 @@ export default function FiboPageComponent() {
         <p>
           Jeśli cena wraca do 1.618 – można zebrać ostatnie TP i zamykać pozycję
           oraz rozważyć otwarcie przeciwnej (Nie zawsze, ale to wiadomo). <br />
-          <br />A miejsce ewentiualnego ponowengo wejscia w shorta to poziom 1.0
+          <br />A miejsce ewentualnego ponownego wejscia w shorta to poziom 1.0
           czyli 100%
         </p>
         <Image src={fibo11} alt="fibo11" />

@@ -21,3 +21,37 @@ main {
   flex-grow: 1;
   padding: 1% 1% 0% 1%;
 }
+
+/* WebKit browsers: Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(20, 20, 30, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 0, 234, 0.7),
+    rgba(0, 212, 255, 0.6)
+  );
+  border-radius: 10px;
+  border: 2px solid rgba(20, 20, 30, 0.4);
+  box-shadow: 0 0 5px rgba(0, 212, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(98, 0, 234, 0.9),
+    rgba(0, 212, 255, 0.9)
+  );
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(98, 0, 234, 0.7) rgba(20, 20, 30, 0.4);
+}
