@@ -1,3 +1,9 @@
+import FiboPageComponent from "@/app/components/FiboPageCompontent/FiboPageComponent";
+
 export default function FiboPage() {
-  return <h1> FiboPage </h1>;
+  return (
+    <>
+      <FiboPageComponent />
+    </>
+  );
 }

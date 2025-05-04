@@ -6,11 +6,12 @@ import {
   resistanceAndSupportLogo,
   pointOfControlLogo,
   vwapLogo,
+  fibo1,
 } from "@/app/assets";
 
 export default function CheatScheetsPage() {
   return (
-    <div className={styles.content}>
+    <div className={styles.pageContent}>
       <CheatScheetsHeader />
       <div className={styles.contentCards}>
         <a href="/infoPage/fibo">
