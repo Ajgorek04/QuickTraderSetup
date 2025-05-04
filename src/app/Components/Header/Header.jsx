@@ -31,17 +31,6 @@ export default function Header() {
                 <h2>Contact</h2>
               </a>
             </li>
-            <li>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h2>
-                  <FontAwesomeIcon icon={faUser} />
-                </h2>
-              </a>
-            </li>
           </ul>
         </div>
       </nav>

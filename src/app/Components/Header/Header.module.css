@@ -56,7 +56,3 @@
 .list li a i {
   transition: transform 0.5s ease, color 0.5s ease;
 }
-
-.list li:last-child {
-  font-size: 1.1rem;
-}
