@@ -1,6 +1,6 @@
 import fiboLogo from "../assets/fibo/FiboLogo.jpg";
 import pointOfControlLogo from "../assets/pointOfControl/pointOfControlLogo.jpg";
-import resistanceAndSupportLogo from "../assets/resistanceAndSupport/resistanceAndSupportLogo.jpg";
+import resistanceAndSupportLogo from "../assets/resistanceANDsupport/resistanceAndSupportLogo.jpg";
 import vwapLogo from "../assets/Vwap/VwapLogo.jpg";
 import fibo1 from "../assets/fibo/fibo1.jpg";
 import fibo2 from "../assets/fibo/fibo2.jpg";
