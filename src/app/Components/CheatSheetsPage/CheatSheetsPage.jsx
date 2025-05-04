@@ -7,7 +7,7 @@ import {
   pointOfControlLogo,
   vwapLogo,
   fibo1,
-} from "@/app/assets";
+} from "@/assets";
 
 export default function CheatSheetsPage() {
   return (

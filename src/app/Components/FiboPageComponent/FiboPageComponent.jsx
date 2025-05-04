@@ -13,7 +13,7 @@ import {
   fibo9,
   fibo10,
   fibo11,
-} from "@/app/assets";
+} from "@/assets";
 
 export default function FiboPageComponent() {
   return (
