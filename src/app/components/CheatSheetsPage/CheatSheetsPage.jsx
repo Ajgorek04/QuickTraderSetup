@@ -20,7 +20,7 @@ export default function CheatSheetsPage() {
         <a href="/infoPage/fibo">
           <CheatSheetsCards img={resistanceAndSupportLogo} />
         </a>
-        <a href="/infoPage/fibo">
+        <a href="/infoPage/poc">
           <CheatSheetsCards img={pointOfControlLogo} />
         </a>
         <a href="/infoPage/fibo">
