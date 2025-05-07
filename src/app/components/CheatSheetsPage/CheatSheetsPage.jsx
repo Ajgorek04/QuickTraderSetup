@@ -1,6 +1,7 @@
 import CheatSheetsCards from "../CheatSheetsCards/CheatSheetsCards";
 import CheatSheetsHeader from "../CheatSheetsHeader/CheatSheetsHeader";
 import styles from "./CheatSheetsPage.module.css";
+import Image from "next/image";
 import {
   fiboLogo,
   resistanceAndSupportLogo,

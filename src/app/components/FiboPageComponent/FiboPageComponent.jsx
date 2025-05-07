@@ -1,4 +1,4 @@
-import styles from "./FiboPage.module.css";
+import styles from "./FiboPageComponent.module.css";
 import Image from "next/image";
 import {
   poziomyFibo,

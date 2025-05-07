@@ -1,12 +1,10 @@
-import styles from "./CheatScheetsCards.module.css";
+import styles from "./CheatSheetsCards.module.css";
+import Image from "next/image";
 
-export default function CheatScheetsCards({ text, img }) {
-  const backgroundImage = typeof img === "string" ? img : img?.src;
-
+export default function CheatSheetsCards({ img }) {
   return (
-    <div
-      className={styles.card}
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    ></div>
+    <div className={styles.card}>
+      <Image src={img} alt="pocLogo" />
+    </div>
   );
 }

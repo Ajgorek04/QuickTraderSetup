@@ -16,3 +16,7 @@
 .card:hover {
   border: 1px solid #ccc;
 }
+
+.card img {
+  width: 300px;
+}
