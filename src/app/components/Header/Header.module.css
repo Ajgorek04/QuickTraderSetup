@@ -11,6 +11,10 @@
 .logo {
   font-size: 1rem;
 }
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .contact {
   display: flex;

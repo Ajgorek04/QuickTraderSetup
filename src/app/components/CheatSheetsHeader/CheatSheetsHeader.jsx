@@ -9,13 +9,13 @@ export default function CheatSheetsHeader() {
       <div className={styles.content}>
         <ul className={styles.list}>
           <a href="/infoPage/fibo">
-            <li>fibonacci retracement</li>
+            <li>fibonacci retracement </li>
           </a>
           <a href="">
             <li>support & resistance</li>
           </a>
-          <a href="">
-            <li>point of control</li>
+          <a href="/infoPage/poc">
+            <li>point of control (POC) </li>
           </a>
           <a href="">
             <li>vwap</li>
