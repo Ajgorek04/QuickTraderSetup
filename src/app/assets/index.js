@@ -1,5 +1,5 @@
 import fiboLogo from "../assets/fibo/FiboLogo.jpg";
-import pointOfControlLogo from "../assets/pointOfControl/pointOfControlLogo.jpg";
+import pocLogo from "../assets/poc/pointOfControlLogo.jpg";
 import resistanceAndSupportLogo from "../assets/resistanceANDsupport/resistanceAndSupportLogo.jpg";
 import vwapLogo from "../assets/Vwap/VwapLogo.jpg";
 import fibo1 from "../assets/fibo/fibo1.jpg";
@@ -15,6 +15,16 @@ import fibo10 from "../assets/fibo/fibo10.jpg";
 import fibo11 from "../assets/fibo/fibo11.jpg";
 import poziomyFibo from "../assets/fibo/poziomyFibo.jpg";
 
+import poc1 from "../assets/poc/poc1.jpg";
+import poc2 from "../assets/poc/poc2.jpg";
+import poc3 from "../assets/poc/poc3.jpg";
+import poc4 from "../assets/poc/poc4.jpg";
+import poc5 from "../assets/poc/poc5.jpg";
+import poc6 from "../assets/poc/poc6.jpg";
+import pocUstawienia from "../assets/poc/pocUstawienia.jpg";
+import pocUstawienia2 from "../assets/poc/pocUstawienia2.jpg";
+import pocTool from "../assets/poc/pocTool.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -28,8 +38,17 @@ export {
   fibo10,
   fibo11,
   fiboLogo,
-  pointOfControlLogo,
+  pocLogo,
   resistanceAndSupportLogo,
   vwapLogo,
   poziomyFibo,
+  poc1,
+  poc2,
+  poc3,
+  poc4,
+  poc5,
+  poc6,
+  pocUstawienia,
+  pocUstawienia2,
+  pocTool,
 };

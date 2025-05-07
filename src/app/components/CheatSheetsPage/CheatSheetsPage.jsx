@@ -4,9 +4,8 @@ import styles from "./CheatSheetsPage.module.css";
 import {
   fiboLogo,
   resistanceAndSupportLogo,
-  pointOfControlLogo,
+  pocLogo,
   vwapLogo,
-  fibo1,
 } from "@/assets";
 
 export default function CheatSheetsPage() {
@@ -21,7 +20,7 @@ export default function CheatSheetsPage() {
           <CheatSheetsCards img={resistanceAndSupportLogo} />
         </a>
         <a href="/infoPage/poc">
-          <CheatSheetsCards img={pointOfControlLogo} />
+          <CheatSheetsCards img={pocLogo} />
         </a>
         <a href="/infoPage/fibo">
           <CheatSheetsCards img={vwapLogo} />
