@@ -25,6 +25,12 @@ import pocUstawienia from "../assets/poc/pocUstawienia.jpg";
 import pocUstawienia2 from "../assets/poc/pocUstawienia2.jpg";
 import pocTool from "../assets/poc/pocTool.jpg";
 
+import fvgLogo from "../assets/fvg/fvgLogo.jpg";
+import fvg0 from "../assets/fvg/fvg0.jpg";
+import fvg1 from "../assets/fvg/fvg1.jpg";
+import fvg2 from "../assets/fvg/fvg2.jpg";
+import fvg3 from "../assets/fvg/fvg3.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -51,4 +57,9 @@ export {
   pocUstawienia,
   pocUstawienia2,
   pocTool,
+  fvgLogo,
+  fvg0,
+  fvg1,
+  fvg2,
+  fvg3,
 };

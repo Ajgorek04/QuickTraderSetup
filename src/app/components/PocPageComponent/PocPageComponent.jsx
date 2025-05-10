@@ -17,7 +17,7 @@ export default function PocPageComponent() {
     <div className={styles.container}>
       <h1>POC - Point Of Control</h1>
 
-      <section className={styles.section1}>
+      <section className={styles}>
         <h2>1. Wprowadzenie</h2>
         <p>
           POC to najważniejszy poziom wolumenowy – miejsce, gdzie wystąpił
@@ -58,12 +58,12 @@ export default function PocPageComponent() {
           Wybieramy fragment wykresu, na którym chcemy analizować wolumen (np.
           od początku impulsu do pierwszego swing high).
         </p>
-        <Image src={poc1} alt="poc1" />
+        <Image src={poc1} alt="poc1" className={styles.img} />
 
         <p>
           Rysujemy Volume Profile, by zobaczyć, gdzie występują POC, VAH, VAL.
         </p>
-        <Image src={poc2} alt="poc2" />
+        <Image src={poc2} alt="poc2" className={styles.img} />
         <h3>B. Łączenie wielu POC</h3>
         <ul>
           <li>
@@ -75,7 +75,7 @@ export default function PocPageComponent() {
             tworzy się tzw. confluence – punkt o zwiększonym znaczeniu.
           </li>
         </ul>
-        <Image src={poc3} alt="poc3" />
+        <Image src={poc3} alt="poc3" className={styles.img} />
 
         <h3>Przykład: VAL jako punkt potwierdzenia</h3>
         <ul>
@@ -89,7 +89,7 @@ export default function PocPageComponent() {
             struktura rynku) potwierdzają ten poziom.
           </li>
         </ul>
-        <Image src={poc4} alt="poc4" />
+        <Image src={poc4} alt="poc4" className={styles.img} />
       </section>
 
       <section>
@@ -104,13 +104,13 @@ export default function PocPageComponent() {
             impulsywnie, ponieważ brakuje tam aktywności handlowej.
           </li>
         </ul>
-        <Image src={poc5} alt="poc5" />
+        <Image src={poc5} alt="poc5" className={styles.img} />
         <p>
           Jeśli cena przebije VAL i wejdzie w gap wolumenowy, istnieje duża
           szansa na dynamiczne zejście do kolejnej strefy płynności (np. obszar
           o wyższym wolumenie poniżej).
         </p>
-        <Image src={poc6} alt="poc6" />
+        <Image src={poc6} alt="poc6" className={styles.img} />
       </section>
 
       <section className={styles.summary}>

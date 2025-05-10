@@ -20,7 +20,7 @@ export default function FiboPageComponent() {
     <div className={styles.container}>
       <h1>Fibonacci Retracement</h1>
 
-      <section className={styles.section1}>
+      <section className={styles}>
         <h2>1. Wprowadzenie</h2>
         <p>
           Poziomy fibo pomagają wyznaczyć potencjalne poziomy wsparcia i oporu
@@ -32,7 +32,7 @@ export default function FiboPageComponent() {
         </p>
       </section>
 
-      <section>
+      <section className={styles.sectionClass}>
         <h2>2. Najważniejsze poziomy Fibonacciego</h2>
         <p>Mogą się różnić w zależności od metodologii i preferencji</p>
         <Image src={poziomyFibo} alt="poziomyFibo" />
