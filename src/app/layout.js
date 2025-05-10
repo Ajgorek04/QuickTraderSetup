@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton/ScrollToTopButton";
 
 export const metadata = {
   title: "QuickTraderSetup",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <main>
           <Header />
           {children}
+          <ScrollToTopButton />
           <Footer />
         </main>
       </body>
