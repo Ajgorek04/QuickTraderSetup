@@ -17,7 +17,7 @@ export default function CheatSheetsHeader() {
           <a href="/infoPage/poc">
             <li>point of control (POC) </li>
           </a>
-          <a href="">
+          <a href="/infoPage/vwap">
             <li>vwap</li>
           </a>
         </ul>
