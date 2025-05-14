@@ -23,7 +23,7 @@ export default function CheatSheetsPage() {
         <a href="/infoPage/poc">
           <CheatSheetsCards img={pocLogo} />
         </a>
-        <a href="/infoPage/fibo">
+        <a href="/infoPage/vwap">
           <CheatSheetsCards img={vwapLogo} />
         </a>
         <a href="/infoPage/fvg">

@@ -31,6 +31,14 @@ import fvg1 from "../assets/fvg/fvg1.jpg";
 import fvg2 from "../assets/fvg/fvg2.jpg";
 import fvg3 from "../assets/fvg/fvg3.jpg";
 
+import vwaptool from "../assets/vwap/vwaptool.jpg";
+import vwap1 from "../assets/vwap/vwap1.jpg";
+import vwap2 from "../assets/vwap/vwap2.jpg";
+import vwap3 from "../assets/vwap/vwap3.jpg";
+import vwap4 from "../assets/vwap/vwap4.jpg";
+import vwap5 from "../assets/vwap/vwap5.jpg";
+import vwap6 from "../assets/vwap/vwap6.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -62,4 +70,11 @@ export {
   fvg1,
   fvg2,
   fvg3,
+  vwaptool,
+  vwap1,
+  vwap2,
+  vwap3,
+  vwap4,
+  vwap5,
+  vwap6,
 };
