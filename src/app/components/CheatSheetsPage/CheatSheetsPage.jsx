@@ -24,7 +24,7 @@ export default function CheatSheetsPage() {
           <CheatSheetsCards img={pocLogo} />
         </a>
         <a href="/infoPage/vwap">
-          <CheatSheetsCards img={vwapLogo} />
+          <CheatSheetsCards img={vapLogo} />
         </a>
         <a href="/infoPage/fvg">
           <CheatSheetsCards img={fvgLogo} />
