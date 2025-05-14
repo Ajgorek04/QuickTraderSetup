@@ -5,7 +5,7 @@ import {
   fiboLogo,
   resistanceAndSupportLogo,
   pocLogo,
-  vwapLogo,
+  vapLogo,
   fvgLogo,
 } from "@/assets";
 
