@@ -1,4 +1,4 @@
-import VwapPageComponent from "@/components/VwapPageComponent/VwapComponent";
+import VwapPageComponent from "@/components/VwapPageComponent/VwapPageComponent";
 
 export default function VwapPage() {
   return (
