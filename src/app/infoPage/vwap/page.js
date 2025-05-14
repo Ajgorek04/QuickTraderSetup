@@ -1,9 +1,9 @@
-import VwapComponent from "@/components/VwapComponent/VwapComponent";
+import VwapPageComponent from "@/components/VwapPageComponent/VwapComponent";
 
 export default function VwapPage() {
   return (
     <>
-      <VwapComponent />
+      <VwapPageComponent />
     </>
   );
 }

@@ -1,8 +1,8 @@
-import styles from "./VwapComponent.module.css";
+import styles from "./VwapPageComponent.module.css";
 import Image from "next/image";
 import { vwaptool, vwap1, vwap2, vwap3, vwap4, vwap5, vwap6 } from "@/assets";
 
-export default function VwapComponent() {
+export default function VwapPageComponent() {
   return (
     <div className={styles.container}>
       <h1>VWAP (Volume Weighted Average Price) </h1>
