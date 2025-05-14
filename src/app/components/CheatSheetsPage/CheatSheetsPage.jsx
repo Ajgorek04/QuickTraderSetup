@@ -5,7 +5,7 @@ import {
   fiboLogo,
   resistanceAndSupportLogo,
   pocLogo,
-  vapLogo,
+  vaplogo,
   fvgLogo,
 } from "@/assets";
 
@@ -24,7 +24,7 @@ export default function CheatSheetsPage() {
           <CheatSheetsCards img={pocLogo} />
         </a>
         <a href="/infoPage/vwap">
-          <CheatSheetsCards img={vapLogo} />
+          <CheatSheetsCards img={vaplogo} />
         </a>
         <a href="/infoPage/fvg">
           <CheatSheetsCards img={fvgLogo} />
