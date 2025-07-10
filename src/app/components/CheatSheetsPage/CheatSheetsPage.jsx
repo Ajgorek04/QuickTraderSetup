@@ -8,6 +8,7 @@ import {
   vaplogo,
   fvgLogo,
   macdlogo,
+  rsilogo,
 } from "@/assets";
 
 export default function CheatSheetsPage() {
@@ -32,6 +33,9 @@ export default function CheatSheetsPage() {
         </a>
         <a href="/infoPage/macd">
           <CheatSheetsCards img={macdlogo} />
+        </a>
+        <a href="/infoPage/rsi">
+          <CheatSheetsCards img={rsilogo} />
         </a>
       </div>
     </div>
