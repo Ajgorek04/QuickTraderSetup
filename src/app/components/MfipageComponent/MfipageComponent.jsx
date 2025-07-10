@@ -1,110 +1,97 @@
-import styles from "./MfiPageComponent.module.css";
+import styles from "../CvdPageComponent/CvdPageComponent.module.css";
 import Image from "next/image";
 
-import { macd1 } from "@/assets";
-import { macd2 } from "@/assets";
-import { macd3 } from "@/assets";
+import { mfi1, mfi2 } from "@/assets";
 
-export default function MacdPageComponent() {
+export default function MfiPageComponent() {
   return (
     <div className={styles.container}>
-      <h1>MACD – Moving Average Convergence Divergence</h1>
+      <h1>MFI – Money Flow Index</h1>
 
-      <section className={styles}>
+      <section>
         <h2>1. Wprowadzenie</h2>
-        <Image src={macd1} alt="macd1" />
+        <Image src={mfi1} alt="mfi1" />
+
         <p>
-          MACD to popularny oscylator używany w analizie technicznej, służący
-          do: identyfikacji trendu, oceny momentum (impetu rynku), wychwytywania
-          potencjalnych punktów odwrócenia rynku.
+          MFI mierzy przepływ pieniędzy na rynku, łącząc cenę oraz wolumen.
+          Dzięki temu dostarcza bardziej kompleksowej informacji o sile
+          kupujących i sprzedających, niż np. RSI – ponieważ uwzględnia
+          rzeczywisty obrót.
         </p>
-        <h3>Budowa MACD: </h3>
-        MACD składa się z trzech głównych elementów:
-        <p>🔵 Linia MACD (niebieska)</p>
-        <ul>
-          <li>
-            Obliczana jako różnica dwóch wykładniczych średnich kroczących
-            (EMA): zazwyczaj EMA 12 (krótkoterminowa) i EMA 26 (długoterminowa).
-          </li>
-          <li>
-            Pokazuje relację między krótkoterminowym a długoterminowym ruchem
-            ceny.
-          </li>
-        </ul>
-        <p>🟠 Linia sygnałowa (pomarańczowa)</p>
-        <ul>
-          <li>Jest to 9-okresowa EMA linii MACD.</li>
-          <li>
-            Służy jako wyzwalacz sygnałów kupna lub sprzedaży – przecięcia z
-            linią MACD mogą wskazywać zmianę kierunku.
-          </li>
-        </ul>
-        <p>📊 Histogram MACD</p>
-        <ul>
-          <li>Przedstawia różnicę między linią MACD a linią sygnałową.</li>
-          <li>
-            Pomaga ocenić siłę momentum – większy histogram = silniejsze
-            momentum trendu.
-          </li>
-        </ul>
-        <Image src={macd2} alt="macd2" />
       </section>
       <section>
-        <h2>2. Jak używać MACD</h2>
-        <p>📌 Główne zasady: </p>
+        <h2>2. Jak działa MFI ?</h2>
+        <p>
+          MFI działa podobnie do RSI ale będzie bardziej dokładne ( zapoznaj się
+          najpierw z RSI ).
+        </p>
+        <p>Kluczowe poziomy: </p>
         <ul>
+          <li>Powyżej 80 – overbought → możliwa korekta lub odwrócenie</li>
+          <li>Poniżej 20 – oversold → możliwe odbicie wzrostowe</li>
           <li>
-            MACD powyżej linii 0 – krótkoterminowa EMA powyżej długoterminowej ⇒
-            trend wzrostowy.
-          </li>
-          <li>
-            MACD poniżej linii 0 – krótkoterminowa EMA poniżej długoterminowej ⇒
-            trend spadkowy.
+            Linia 50 – punkt równowagi (działa jak opór/wsparcie – analogicznie
+            do RSI).
           </li>
         </ul>
-        <p>🖼️ Przykład zejścia: </p>
-        <Image src={macd3} alt="macd3" />
-        <p>
-          Na załączonym obrazku widzimy zejście na wykresie. MACD przecina linię
-          0 z góry na dół – pojawia się sygnał krótkotrwałego trendu spadkowego.
-        </p>
-        <p>Dodatkowo warto wiedzieć, że MACD dobrze działa z dywergencjami.</p>
+        <Image src={mfi2} alt="mfi2" />
       </section>
+
       <section>
-        <h1>3. Zalety i wady MACD</h1>
+        <h2>3. Dywergencje z MFI</h2>
+        <p>Dywergencje między MFI a ceną dają istotne sygnały:</p>
+        <ul>
+          <li>Cena rośnie, MFI spada → osłabienie trendu wzrostowego,</li>
+          <li>Cena spada, MFI rośnie → osłabienie trendu spadkowego.</li>
+        </ul>
+        <p>
+          ➡️ W połączeniu z innymi narzędziami (np. MACD, średnie kroczące) MFI
+          może znacznie zwiększyć skuteczność Twojej analizy.
+        </p>
+      </section>
+
+      <section>
+        <h2>Zalety i wady MFI</h2>
         <p>✅ Zalety:</p>
         <ul>
-          <li>Przejrzysty i łatwy do interpretacji.</li>
-          <li>
-            Działa dobrze na trendach, łatwo możemy wyznaczyć w jakim trendzie
-            jesteśmy.
-          </li>
+          <li>Uwzględnia wolumen, co czyni go bardziej precyzyjnym niż RSI</li>
+          <li>Jest prosty w interpretacj</li>
+          <li>Dobrze współpracuje z innymi wskaźnikami (np. MACD, EMA)</li>
         </ul>
         <p>⚠️ Wady:</p>
         <ul>
-          <li>Może generować fałszywe sygnały</li>
           <li>
-            Jest opóźniony, będzie delikatnie się spóźniał, więc nie traktujmy
-            go jak "pewniak"
+            Może dawać fałszywe sygnały na rynkach o niskiej płynności lub w
+            konsolidacjach ( oscylatory opierające się na wolumenie nie będą
+            dobre do używana na niskich Market Capach czy po prostu projektach o
+            obniżonej płynności )
           </li>
+          <li>Działa z opóźnieniem, jak inne oscylatory</li>
+          <li>Wymaga dokładnych danych wolumenu</li>
         </ul>
       </section>
 
       <section className={styles.summary}>
-        <h2>Podsumowanie – Jak wykorzystywać MACD w tradingu?</h2>
+        <h2>Podsumowanie – Jak korzystać z MFI w praktyce?</h2>
         <div className={styles.summaryItem}>
-          🎯 Obserwuj przecięcia linii MACD z linią sygnałową oraz z poziomem 0.
+          🧮 Obserwuj poziomy 80 / 20 – sygnalizują wykupienie lub wyprzedanie
+          rynku.
         </div>
         <div className={styles.summaryItem}>
-          📊 Korzystaj z histogramu do oceny siły trendu.
+          📊 Traktuj linię 50 jako barometr siły rynku – powyżej przewaga
+          kupujących, poniżej – sprzedających.
         </div>
         <div className={styles.summaryItem}>
-          🧭 Szukaj dywergencji między MACD a ceną – często wyprzedzają zmianę
-          kierunku.
+          📉 Wykrywaj dywergencje – rozbieżności między MFI a ceną często
+          zapowiadają zmianę trendu.
         </div>
         <div className={styles.summaryItem}>
-          🧠 Nie polegaj tylko na MACD – łącz go z innymi narzędziami: poziomami
-          wsparcia/oporu, strukturą rynku, Fibonaccim, wolumenem itp.
+          🔗 Łącz MFI z innymi wskaźnikami – MACD, średnie kroczące, SR,
+          wolumen, aby zwiększyć skuteczność analizy.
+        </div>
+        <div className={styles.summaryItem}>
+          ⚠️ Unikaj ślepego zaufania do MFI w niskiej płynności lub podczas
+          konsolidacji – może generować mylące sygnały.
         </div>
       </section>
     </div>
