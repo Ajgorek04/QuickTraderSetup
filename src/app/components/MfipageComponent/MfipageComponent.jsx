@@ -4,7 +4,7 @@ import Image from "next/image";
 import { mfi1 } from "@/assets";
 import { mfi2 } from "@/assets";
 
-export default function MfiPageComponentt() {
+export default function MfiPageComponent() {
   return (
     <div className={styles.container}>
       <h1>MFI – Money Flow Index</h1>
