@@ -1,4 +1,4 @@
-import styles from "./MfiPageComponentt.module.css";
+import styles from "./MfiPageComponent.module.css";
 import Image from "next/image";
 
 import { mfi1 } from "@/assets";
