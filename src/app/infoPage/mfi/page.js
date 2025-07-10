@@ -1,5 +1,5 @@
-import OiPageComponent from "@/components/OiPageComponent/OiPageComponent";
+import MfiPageComponent from "@/components/MfiPageComponent/MfiPageComponent";
 
 export default function OiPage() {
-  return <OiPageComponent />;
+  return <MfiPageComponent />;
 }
