@@ -42,7 +42,9 @@ import vwap6 from "../assets/vwap/vwap6.jpg";
 import macdlogo from "../assets/macd/macdlogo.jpg";
 import macd1 from "../assets/macd/macd1.jpg";
 import macd2 from "../assets/macd/macd2.jpg";
-import macd3 from "../assets/macd/macd3.jpg";
+import macd2 from "../assets/macd/macd2.jpg";
+
+import rsilogo from "../assets/rsi/rsilogo.jpg";
 
 export {
   fibo1,
