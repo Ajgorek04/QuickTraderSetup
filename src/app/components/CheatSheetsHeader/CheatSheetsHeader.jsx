@@ -38,8 +38,8 @@ export default function CheatSheetsHeader() {
           <a href="/infoPage/mfi">
             <li>money flow index</li>
           </a>
-          <a href="/infoPage/kanały hursta">
-            <li>hursta</li>
+          <a href="/infoPage/hursta">
+            <li>kanały hursta</li>
           </a>
           <a href="/infoPage/ema">
             <li>ema</li>
