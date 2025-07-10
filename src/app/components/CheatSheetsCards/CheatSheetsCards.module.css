@@ -10,11 +10,11 @@
   background-size: cover;
   background-position: center;
   border: 1px solid #808080;
-  transition: 1s ease-in;
+  transition: 0.75s ease;
 }
 
 .card:hover {
-  border: 1px solid #ccc;
+  border: 1px solid #00e6b8;
 }
 
 .card img {

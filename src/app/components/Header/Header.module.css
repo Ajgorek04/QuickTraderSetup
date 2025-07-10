@@ -26,7 +26,6 @@
 
 .list {
   display: flex;
-  gap: 3rem;
   list-style: none;
   width: 100%;
   align-items: flex-end;
@@ -38,28 +37,16 @@
 
 .list li a {
   text-decoration: none;
-  color: #b3ffff;
+  color: #fff;
   transition: color 0.5s ease, transform 0.5s ease;
 }
 
-.list li a:hover {
-  transform: scale(1.15);
-  color: #80ffff;
+.list li a h2 {
+  transition: transform 0.5s ease, color 0.5s ease;
+  padding: 1rem 2rem;
 }
 
 .list li a h2:hover {
-  transform: scale(1.15);
-  transition: transform 0.5s ease, color 0.5s ease;
-  color: #80ffff;
-}
-
-.list li a i:hover {
-  transform: scale(1.15);
-  color: #ccc;
-}
-
-.list li a,
-.list li a h2,
-.list li a i {
-  transition: transform 0.5s ease, color 0.5s ease;
+  transform: translateY(-10px);
+  color: #00e6b8;
 }

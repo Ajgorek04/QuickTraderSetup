@@ -39,6 +39,11 @@ import vwap4 from "../assets/vwap/vwap4.jpg";
 import vwap5 from "../assets/vwap/vwap5.jpg";
 import vwap6 from "../assets/vwap/vwap6.jpg";
 
+import macdlogo from "../assets/macd/macdlogo.jpg";
+import macd1 from "../assets/macd/macd1.jpg";
+import macd2 from "../assets/macd/macd2.jpg";
+import macd3 from "../assets/macd/macd3.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -77,4 +82,8 @@ export {
   vwap4,
   vwap5,
   vwap6,
+  macdlogo,
+  macd1,
+  macd2,
+  macd3,
 };

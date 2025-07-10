@@ -6,7 +6,7 @@ export default function Header() {
       <nav className={style.navbar}>
         <div className={style.logo}>
           <a href="/">
-            <h1>QuickTraderSetup</h1>
+            <h2>QuickTraderSetup</h2>
           </a>
         </div>
         <div className={style.contact}>
