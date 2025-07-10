@@ -66,6 +66,15 @@ import hurstalogo from "../assets/hursta/hurstalogo.jpg";
 import hursta1 from "../assets/hursta/hursta1.jpg";
 import hursta2 from "../assets/hursta/hursta2.jpg";
 
+import emalogo from "../assets/ema/emalogo.jpg";
+import ema1 from "../assets/ema/ema1.jpg";
+import ema2 from "../assets/ema/ema2.jpg";
+import ema3 from "../assets/ema/ema3.jpg";
+import ema4 from "../assets/ema/ema4.jpg";
+import ema5 from "../assets/ema/ema5.jpg";
+import ema6 from "../assets/ema/ema6.jpg";
+import ema7 from "../assets/ema/ema7.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -125,4 +134,12 @@ export {
   hurstalogo,
   hursta1,
   hursta2,
+  emalogo,
+  ema1,
+  ema2,
+  ema3,
+  ema4,
+  ema5,
+  ema6,
+  ema7,
 };

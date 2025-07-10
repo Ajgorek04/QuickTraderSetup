@@ -13,6 +13,7 @@ import {
   oilogo,
   mfilogo,
   hurstalogo,
+  emalogo,
 } from "@/assets";
 
 export default function CheatSheetsPage() {
@@ -52,6 +53,9 @@ export default function CheatSheetsPage() {
         </a>
         <a href="/infoPage/hursta">
           <CheatSheetsCards img={hurstalogo} />
+        </a>
+        <a href="/infoPage/ema">
+          <CheatSheetsCards img={emalogo} />
         </a>
       </div>
     </div>
