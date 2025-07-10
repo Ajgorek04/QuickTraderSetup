@@ -54,6 +54,10 @@ import cvd1 from "../assets/cvd/cvd1.jpg";
 import cvd2 from "../assets/cvd/cvd2.jpg";
 import cvd3 from "../assets/cvd/cvd3.jpg";
 
+import oilogo from "../assets/oi/oilogo.jpg";
+import oi1 from "../assets/oi/oi1.jpg";
+import oi2 from "../assets/oi/oi2.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -104,4 +108,7 @@ export {
   cvd1,
   cvd2,
   cvd3,
+  oilogo,
+  oi1,
+  oi2,
 };

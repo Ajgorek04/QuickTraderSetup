@@ -8,6 +8,10 @@
   width: 50%;
 }
 
+.container ul {
+  list-style-type: none;
+}
+
 .container ul li {
   margin-left: 2rem;
   margin-bottom: 0.5rem;
