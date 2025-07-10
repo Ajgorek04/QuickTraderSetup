@@ -1,12 +1,16 @@
-import styles from "./MFIPageComponent.module.css";
+import styles from "./MfiPageComponent.module.css";
+import Image from "next/image";
 
-export default function MFIPageComponent() {
+import { mfi1, mfi2 } from "@/assets";
+
+export default function MfiPageComponent() {
   return (
     <div className={styles.container}>
       <h1>MFI – Money Flow Index</h1>
 
       <section>
         <h2>1. Wprowadzenie</h2>
+        <Image src={mfi1} alt="mfi1" />
 
         <p>
           MFI mierzy przepływ pieniędzy na rynku, łącząc cenę oraz wolumen.
@@ -30,6 +34,7 @@ export default function MFIPageComponent() {
             do RSI).
           </li>
         </ul>
+        <Image src={mfi2} alt="mfi2" />
       </section>
 
       <section>
