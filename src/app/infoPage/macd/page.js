@@ -1,6 +1,6 @@
 import MacdPageComponent from "@/components/MacdPageComponent/MacdPageComponent.jsx";
 
-export default function FvgPage() {
+export default function MacdPage() {
   return (
     <>
       <MacdPageComponent />

@@ -1,4 +1,4 @@
-import styles from "./MacdComponent.module.css";
+import styles from "./MacdPageComponent.module.css";
 import Image from "next/image";
 
 import { macd1 } from "@/assets";
