@@ -58,6 +58,14 @@ import oilogo from "../assets/oi/oilogo.jpg";
 import oi1 from "../assets/oi/oi1.jpg";
 import oi2 from "../assets/oi/oi2.jpg";
 
+import mfilogo from "../assets/mfi/mfilogo.jpg";
+import mfi1 from "../assets/mfi/mfi1.jpg";
+import mfi2 from "../assets/mfi/mfi2.jpg";
+
+import hurstalogo from "../assets/hursta/hurstalogo.jpg";
+import hursta1 from "../assets/hursta/hursta1.jpg";
+import hursta2 from "../assets/hursta/hursta2.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -111,4 +119,10 @@ export {
   oilogo,
   oi1,
   oi2,
+  mfilogo,
+  mfi1,
+  mfi2,
+  hurstalogo,
+  hursta1,
+  hursta2,
 };
