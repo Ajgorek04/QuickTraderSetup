@@ -1,8 +1,7 @@
 import styles from "./OiPageComponent.module.css";
 import Image from "next/image";
 
-import { oi1 } from "@/assets";
-import { oi2 } from "@/assets";
+import { oi1, oi2 } from "@/assets";
 
 export default function OiPageComponent() {
   return (
