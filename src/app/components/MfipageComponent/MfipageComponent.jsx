@@ -1,10 +1,6 @@
-import styles from "./MfiPageComponent.module.css";
-import Image from "next/image";
+import styles from "./MFIPageComponent.module.css";
 
-import { mfi1 } from "@/assets";
-import { mfi2 } from "@/assets";
-
-export default function MfiPageComponent() {
+export default function MFIPageComponent() {
   return (
     <div className={styles.container}>
       <h1>MFI – Money Flow Index</h1>
