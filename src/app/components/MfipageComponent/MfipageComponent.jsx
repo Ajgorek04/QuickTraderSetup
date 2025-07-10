@@ -11,7 +11,6 @@ export default function MfiPageComponent() {
 
       <section>
         <h2>1. Wprowadzenie</h2>
-        <Image src={mfi1} alt="mfi1" />
 
         <p>
           MFI mierzy przepływ pieniędzy na rynku, łącząc cenę oraz wolumen.
@@ -35,7 +34,6 @@ export default function MfiPageComponent() {
             do RSI).
           </li>
         </ul>
-        <Image src={mfi2} alt="mfi2" />
       </section>
 
       <section>
