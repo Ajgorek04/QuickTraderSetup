@@ -20,6 +20,30 @@ export default function CheatSheetsHeader() {
           <a href="/infoPage/vwap">
             <li>vwap</li>
           </a>
+          <a href="/infoPage/fvg">
+            <li>fvg</li>
+          </a>
+          <a href="/infoPage/macd">
+            <li>macd</li>
+          </a>
+          <a href="/infoPage/rsi">
+            <li>rsi</li>
+          </a>
+          <a href="/infoPage/cvd">
+            <li>cvd</li>
+          </a>
+          <a href="/infoPage/oi">
+            <li>open interest</li>
+          </a>
+          <a href="/infoPage/mfi">
+            <li>money flow index</li>
+          </a>
+          <a href="/infoPage/kanały hursta">
+            <li>hursta</li>
+          </a>
+          <a href="/infoPage/ema">
+            <li>ema</li>
+          </a>
         </ul>
       </div>
     </header>
