@@ -1,4 +1,4 @@
-import MfiPageComponent from "@/components/MfipageComponent/MfipageComponent";
+import MfiPageComponent from "@/components/MfiPageComponent/MfiPageComponent";
 
 export default function MfiPage() {
   return <MfiPageComponent />;
