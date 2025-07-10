@@ -170,7 +170,7 @@ export default function FiboPageComponent() {
         <Image src={fibo11} alt="fibo11" />
       </section>
       <section className={styles.summary}>
-        <h2>7. Podsumowanie – Jak wykorzystywać Fibonacci w tradingu?</h2>
+        <h2>Podsumowanie – Jak wykorzystywać Fibonacci w tradingu?</h2>
         <div className={styles.summaryItem}>
           🎯 Używaj retracementu do szukania potencjalnych stref wejścia w
           korekcie trendu.

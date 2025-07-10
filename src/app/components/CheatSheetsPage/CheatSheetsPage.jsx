@@ -9,6 +9,7 @@ import {
   fvgLogo,
   macdlogo,
   rsilogo,
+  cvdlogo,
 } from "@/assets";
 
 export default function CheatSheetsPage() {
@@ -19,9 +20,9 @@ export default function CheatSheetsPage() {
         <a href="/infoPage/fibo">
           <CheatSheetsCards img={fiboLogo} />
         </a>
-        <a href="/infoPage/fibo">
+        {/* <a href="/infoPage/fibo">
           <CheatSheetsCards img={resistanceAndSupportLogo} />
-        </a>
+        </a> */}
         <a href="/infoPage/poc">
           <CheatSheetsCards img={pocLogo} />
         </a>
@@ -36,6 +37,9 @@ export default function CheatSheetsPage() {
         </a>
         <a href="/infoPage/rsi">
           <CheatSheetsCards img={rsilogo} />
+        </a>
+        <a href="/infoPage/cvd">
+          <CheatSheetsCards img={cvdlogo} />
         </a>
       </div>
     </div>

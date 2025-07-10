@@ -109,7 +109,7 @@ export default function VwapPageComponent() {
         <Image src={vwap6} alt="vwap6" className={styles.img} />
       </section>
       <section className={styles.summary}>
-        <h2>7. Podsumowanie – Kluczowe zasady</h2>
+        <h2>Podsumowanie – Kluczowe zasady</h2>
 
         <div className={styles.summaryItem}>
           🎯 VWAP = rzeczywista cena rynku – obserwuj, jak cena reaguje w jego

@@ -85,7 +85,7 @@ export default function RsiPageComponent() {
       </section>
 
       <section className={styles.summary}>
-        <h2>7. Podsumowanie – Jak wykorzystywać RSI w tradingu?</h2>
+        <h2>Podsumowanie – Jak wykorzystywać RSI w tradingu?</h2>
         <div className={styles.summaryItem}>
           🎯 Obserwuj poziomy 30 / 70 (lub inne jeśli je zmieniłeś pod swoje
           preferencje) – pomagają wychwycić ekstremy rynku.

@@ -49,6 +49,11 @@ import rsi1 from "../assets/rsi/rsi1.jpg";
 import rsi2 from "../assets/rsi/rsi2.jpg";
 import rsi3 from "../assets/rsi/rsi3.jpg";
 
+import cvdlogo from "../assets/cvd/cvdlogo.jpg";
+import cvd1 from "../assets/cvd/cvd1.jpg";
+import cvd2 from "../assets/cvd/cvd2.jpg";
+import cvd3 from "../assets/cvd/cvd3.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -95,4 +100,8 @@ export {
   rsi1,
   rsi2,
   rsi3,
+  cvdlogo,
+  cvd1,
+  cvd2,
+  cvd3,
 };

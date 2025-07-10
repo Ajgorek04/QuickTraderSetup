@@ -85,7 +85,7 @@ export default function FvgPageComponent() {
       </section>
 
       <section className={styles.summary}>
-        <h2>5. Podsumowanie – Jak wykorzystywać FVG w tradingu?</h2>
+        <h2>Podsumowanie – Jak wykorzystywać FVG w tradingu?</h2>
         <div className={styles.summaryItem}>
           📉 FVG powstaje, gdy na świecy brakuje równowagi – np. przewaga
           kupujących bez reakcji sprzedających.

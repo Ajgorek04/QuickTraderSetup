@@ -114,7 +114,7 @@ export default function PocPageComponent() {
       </section>
 
       <section className={styles.summary}>
-        <h2>5. Podsumowanie – Jak wykorzystywać POC w tradingu?</h2>
+        <h2>Podsumowanie – Jak wykorzystywać POC w tradingu?</h2>
         <div className={styles.summaryItem}>
           🎯 Wyznaczaj POC i obserwuj reakcje ceny w jego pobliżu.
         </div>
