@@ -44,6 +44,9 @@ export default function CheatSheetsHeader() {
           <a href="/infoPage/ema">
             <li>ema</li>
           </a>
+          <a href="/infoPage/bos">
+            <li>bos</li>
+          </a>
         </ul>
       </div>
     </header>

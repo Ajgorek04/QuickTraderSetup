@@ -57,6 +57,9 @@ export default function CheatSheetsPage() {
         <a href="/infoPage/ema">
           <CheatSheetsCards img={emalogo} />
         </a>
+        <a href="/infoPage/bos">
+          <CheatSheetsCards img={emalogo} />
+        </a>
       </div>
     </div>
   );
