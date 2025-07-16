@@ -77,27 +77,27 @@ import ema7 from "../assets/ema/ema7.jpg";
 
 import boslogo from "../assets/bos/boslogo.jpg";
 import bos1 from "../assets/bos/bos1.jpg";
-import bos2 from "../assets/bos/bos1.jpg";
-import bos3 from "../assets/bos/bos1.jpg";
-import bos4 from "../assets/bos/bos1.jpg";
-import bos5 from "../assets/bos/bos1.jpg";
-import bos6 from "../assets/bos/bos1.jpg";
-import bos7 from "../assets/bos/bos1.jpg";
-import bos8 from "../assets/bos/bos1.jpg";
-import bos9 from "../assets/bos/bos1.jpg";
-import bos10 from "../assets/bos/bos1.jpg";
-import bos11 from "../assets/bos/bos1.jpg";
-import bos12 from "../assets/bos/bos1.jpg";
-import bos13 from "../assets/bos/bos1.jpg";
-import bos14 from "../assets/bos/bos1.jpg";
-import bos15 from "../assets/bos/bos1.jpg";
-import bos16 from "../assets/bos/bos1.jpg";
-import bos17 from "../assets/bos/bos1.jpg";
-import bos18 from "../assets/bos/bos1.jpg";
-import bos19 from "../assets/bos/bos1.jpg";
-import bos20 from "../assets/bos/bos1.jpg";
-import bos21 from "../assets/bos/bos1.jpg";
-import bos22 from "../assets/bos/bos1.jpg";
+import bos2 from "../assets/bos/bos2.jpg";
+import bos3 from "../assets/bos/bos3.jpg";
+import bos4 from "../assets/bos/bos4.jpg";
+import bos5 from "../assets/bos/bos5.jpg";
+import bos6 from "../assets/bos/bos6.jpg";
+import bos7 from "../assets/bos/bos7.jpg";
+import bos8 from "../assets/bos/bos8.jpg";
+import bos9 from "../assets/bos/bos9.jpg";
+import bos10 from "../assets/bos/bos10.jpg";
+import bos11 from "../assets/bos/bos11.jpg";
+import bos12 from "../assets/bos/bos12.jpg";
+import bos13 from "../assets/bos/bos13.jpg";
+import bos14 from "../assets/bos/bos14.jpg";
+import bos15 from "../assets/bos/bos15.jpg";
+import bos16 from "../assets/bos/bos16.jpg";
+import bos17 from "../assets/bos/bos17.jpg";
+import bos18 from "../assets/bos/bos18.jpg";
+import bos19 from "../assets/bos/bos19.jpg";
+import bos20 from "../assets/bos/bos20.jpg";
+import bos21 from "../assets/bos/bos21.jpg";
+import bos22 from "../assets/bos/bos22.jpg";
 
 export {
   fibo1,

@@ -8,6 +8,10 @@
   width: 50%;
 }
 
+.fiboUstawienia {
+  display: flex;
+}
+
 .container p,
 .container ul {
   margin-left: 1rem;
@@ -62,11 +66,4 @@
   border-radius: 10px;
   color: #000;
   font-weight: bold;
-}
-
-.ustawieniaPoc {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
 }

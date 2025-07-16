@@ -14,6 +14,7 @@ import {
   mfilogo,
   hurstalogo,
   emalogo,
+  boslogo,
 } from "@/assets";
 
 export default function CheatSheetsPage() {
@@ -58,7 +59,7 @@ export default function CheatSheetsPage() {
           <CheatSheetsCards img={emalogo} />
         </a>
         <a href="/infoPage/bos">
-          <CheatSheetsCards img={emalogo} />
+          <CheatSheetsCards img={boslogo} />
         </a>
       </div>
     </div>
