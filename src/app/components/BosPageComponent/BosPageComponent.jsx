@@ -41,7 +41,10 @@ export default function BosPageComponent() {
 
       <section>
         <h2>2. Fake BoS</h2>
-        <p>Żeby bos był wysokiej jakosci, był prawdzimy to low świecy</p>
+        <p>
+          Żeby BoS był wysokiej jakości i był prawdziwy to low świecy
+          poprzedzającej BoS'a musi zostać przetestowane przez strefę BoS'a
+        </p>
         <Image src={bos21} alt="bos21" />
       </section>
 
@@ -56,19 +59,23 @@ export default function BosPageComponent() {
       <section>
         <h2>4. Rozrysowanie BoS</h2>
         <p>
-          W tej strefie najważniejszy jest dołek – protected low. Po wybiciu
-          tego low możemy dostać zmianę charakteru trendu.
+          W strefie BoS najważniejszy jest dołek – protected low, po wybiciu
+          którego, możemy dostać zmianę charakteru trendu.
         </p>
         <Image src={bos4} alt="bos4" />
       </section>
 
       <section>
-        <h2>5. Jak szukamy trade'a ?</h2>
+        <h2>5. Jak szukamy trade'a - najprostsza metoda</h2>
         <ul>
-          <li>Czekamy aż cena wróci do naszej strefy BoS</li>
           <li>
-            Najprostsza metoda to ustawienie entry powyżej linii BoS’a lub na
-            niej, a SL poniżej protected low i zagranie 1:2.
+            <strong>Entry:</strong> na lub tuż powyżej linii BoS
+          </li>
+          <li>
+            <strong>Stop Loss:</strong> pod protected low
+          </li>
+          <li>
+            <strong>RR:</strong> 1:2
           </li>
         </ul>
         <Image src={bos5} alt="bos5" />
@@ -77,16 +84,15 @@ export default function BosPageComponent() {
       <section>
         <h2> 6. Przykład zagrania</h2>
         <Image src={bos6} alt="bos6" />
+        <p>Mamy: </p>
         <ul>
-          <li>Mamy wybicie high, powstał BoS</li>
-          <li>
-            Mamy wybijanie higher high, wyższe low więc mamy dobry trend
-            wzrostowy
-          </li>
-          <li>Zaznaczamy Fibo, protected low</li>
-          <li>
-            Jeśli mamy już wyznaczony szczyt, szukamy powrotu do strefy BoS’a
-          </li>
+          <li>Wybicie high → powstaje BoS</li>
+          <li>Wyższe high i wyższe low → silny trend wzrostowy</li>
+        </ul>
+        <p>Co robimy: </p>
+        <ul>
+          <li>Zaznaczamy Fibo, BoS, protected low</li>
+          <li>Czekamy na powrót ceny do strefy BoS</li>
         </ul>
         <Image src={bos7} alt="bos7" />
         <ul>
@@ -112,13 +118,13 @@ export default function BosPageComponent() {
 
       <section>
         <h2>7. Na co jeszcze zwrócić uwagę ?</h2>
-        <p>
-          <p>
-            Mamy knota, który zawraca nad linią i nie dotyka jej. W przypadku
-            jeśli by ją dotknął, to by było nasze liquidity i w trade’a
-            wchodzilibyśmy w strefie poniżej.
-          </p>
-        </p>
+        <ul>
+          <li>
+            Knot zawraca nad linią BoS – nie dotykając jej → nie jest to
+            liquidity
+          </li>
+          <li>Gdyby dotknął – gralibyśmy z niższej strefy</li>
+        </ul>
         <Image src={bos9} alt="bos9" />
 
         <p>
@@ -136,13 +142,13 @@ export default function BosPageComponent() {
         </p>
         <Image src={bos10} alt="bos10" />
         <p>
-          No i w tym momencie jeszcze nie mamy. Mamy tapnięcie low, jednak
-          świeca się zamyka powyżej BoS’a więc czekamy dalej.
+          Mamy tapnięcie low, ale świeca zamyka się powyżej BoS → brak
+          potwierdzenia
         </p>
         <Image src={bos11} alt="bos11" />
         <p>
           W tym momencie mamy już potwierdzenie, że jest BoS, więc od razu
-          zaznaczamy samego BoS i jego strefę.
+          zaznaczmy strefę
         </p>
         <p>
           Widzimy, że świeca zaczyna wracać i testować tą strefę, uciekła z niej
@@ -165,9 +171,8 @@ export default function BosPageComponent() {
         <h4>Dodatkowe uwagi</h4>
         <p>
           Jeżeli mieli byśmy tą strefę na 4h i nie widzielibyśmy za dużo, to
-          wtedy zmieniamy sobie Time frame na mniejszy np. 1h, 15min. Wtedy
-          możemy wywnioskować, czy np. FVG tam dalej jest, czy jest dobre czy
-          nie itp.
+          wtedy zmieniamy sobie time frame na mniejszy np. 1h, 15min. Wtedy
+          możemy wywnioskować, czy FVG dalej istnieje, czy mamy potwierdzenia
         </p>
         <Image src={bos16} alt="bos16" />
         <p>A tutaj widok z 15min</p>
@@ -178,7 +183,7 @@ export default function BosPageComponent() {
         <h2>9. Przykład na BTC</h2>
         <p>
           Mamy tapnięcie strefy – tutaj nam powstała płynność i to jest coś po
-          co wykres powinien wrócić, więc jeżeli zaczniemy spadać to do longa
+          co wykres powinien wrócić, więc jeżeli zaczniemy spadać, to do longa
           będziemy chcieli się przyłączyć w strefie BoS
         </p>
         <Image src={bos18} alt="bos18" />
@@ -210,8 +215,22 @@ export default function BosPageComponent() {
       </section>
 
       <section className={styles.summary}>
-        <h2>Podsumowanie</h2>
-        <div className={styles.summaryItem}>Podsumowanie</div>
+        <h2>🧾 Podsumowanie – Jak grać BoS'em skutecznie?</h2>
+        <div className={styles.summaryItem}>
+          🎯 BoS + order blocki = skuteczna strategia
+        </div>
+        <div className={styles.summaryItem}>
+          🔐 Zaznaczaj <strong>Protected Low</strong> – miejsce na SL
+        </div>
+        <div className={styles.summaryItem}>
+          ⚔️ Wchodź po potwierdzeniu (np. formacja świecowa, FVG, reakcja ceny)
+        </div>
+        <div className={styles.summaryItem}>
+          ⏳ Zmieniaj TF na niższy, jeśli nie widzisz klarownego setupu
+        </div>
+        <div className={styles.summaryItem}>
+          💡 Unikaj setupów z marną strukturą po wybiciu – liczy się jakość!
+        </div>
       </section>
     </div>
   );
