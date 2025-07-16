@@ -75,6 +75,30 @@ import ema5 from "../assets/ema/ema5.jpg";
 import ema6 from "../assets/ema/ema6.jpg";
 import ema7 from "../assets/ema/ema7.jpg";
 
+import boslogo from "../assets/bos/boslogo.jpg";
+import bos1 from "../assets/bos/bos1.jpg";
+import bos2 from "../assets/bos/bos1.jpg";
+import bos3 from "../assets/bos/bos1.jpg";
+import bos4 from "../assets/bos/bos1.jpg";
+import bos5 from "../assets/bos/bos1.jpg";
+import bos6 from "../assets/bos/bos1.jpg";
+import bos7 from "../assets/bos/bos1.jpg";
+import bos8 from "../assets/bos/bos1.jpg";
+import bos9 from "../assets/bos/bos1.jpg";
+import bos10 from "../assets/bos/bos1.jpg";
+import bos11 from "../assets/bos/bos1.jpg";
+import bos12 from "../assets/bos/bos1.jpg";
+import bos13 from "../assets/bos/bos1.jpg";
+import bos14 from "../assets/bos/bos1.jpg";
+import bos15 from "../assets/bos/bos1.jpg";
+import bos16 from "../assets/bos/bos1.jpg";
+import bos17 from "../assets/bos/bos1.jpg";
+import bos18 from "../assets/bos/bos1.jpg";
+import bos19 from "../assets/bos/bos1.jpg";
+import bos20 from "../assets/bos/bos1.jpg";
+import bos21 from "../assets/bos/bos1.jpg";
+import bos22 from "../assets/bos/bos1.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -142,4 +166,27 @@ export {
   ema5,
   ema6,
   ema7,
+  boslogo,
+  bos1,
+  bos2,
+  bos3,
+  bos4,
+  bos5,
+  bos6,
+  bos7,
+  bos8,
+  bos9,
+  bos10,
+  bos11,
+  bos12,
+  bos13,
+  bos14,
+  bos15,
+  bos16,
+  bos17,
+  bos18,
+  bos19,
+  bos20,
+  bos21,
+  bos22,
 };

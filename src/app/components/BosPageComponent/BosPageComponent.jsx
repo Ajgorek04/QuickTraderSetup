@@ -4,7 +4,15 @@ import Image from "next/image";
 export default function BosPageComponent() {
   return (
     <div className={styles.container}>
-      <h1> BOS - Break Of Structure </h1>
+      <h1> Break of Structure (BoS) </h1>
+
+      <section>
+        <h2>Kiedy mamy BoS</h2>
+        <p>
+          Break of Structure jest wtedy, kiedy koniec knota wbija się w body
+          świecy.
+        </p>
+      </section>
 
       <section className={styles.summary}>
         <h2>Podsumowanie</h2>
