@@ -8,10 +8,6 @@
   width: 50%;
 }
 
-.fiboUstawienia {
-  display: flex;
-}
-
 .container p,
 .container ul {
   margin-left: 1rem;
@@ -58,6 +54,10 @@
   border-radius: 12px;
   display: flex;
   align-items: center;
+}
+
+.fiboUstawienia {
+  display: flex;
 }
 
 .summaryItem {
