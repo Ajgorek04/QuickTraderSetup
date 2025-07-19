@@ -98,6 +98,11 @@ import bos19 from "../assets/bos/bos19.jpg";
 import bos20 from "../assets/bos/bos20.jpg";
 import bos21 from "../assets/bos/bos21.jpg";
 import bos22 from "../assets/bos/bos22.jpg";
+import bos23 from "../assets/bos/bos23.jpg";
+import bos24 from "../assets/bos/bos24.jpg";
+import bos25 from "../assets/bos/bos25.jpg";
+import bos26 from "../assets/bos/bos26.jpg";
+import bos27 from "../assets/bos/bos27.jpg";
 
 export {
   fibo1,
@@ -189,4 +194,9 @@ export {
   bos20,
   bos21,
   bos22,
+  bos23,
+  bos24,
+  bos25,
+  bos26,
+  bos27,
 };

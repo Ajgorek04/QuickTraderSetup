@@ -23,6 +23,11 @@ import {
   bos20,
   bos21,
   bos22,
+  bos23,
+  bos24,
+  bos25,
+  bos26,
+  bos27,
 } from "@/assets";
 
 export default function BosPageComponent() {
@@ -212,6 +217,46 @@ export default function BosPageComponent() {
           marnym tradem
         </p>
         <Image src={bos22} alt="22" />
+      </section>
+
+      <section>
+        <h2>11. Dodatkowe porady i przykłady - liquidity</h2>
+        <p>
+          Mamy świece, która robi szczyt, robi nam higher high i schodzi w dół
+          retestować BoS’a, tutaj powstał knot gdzie mogłaby być już liquidity
+          <strong> ale nie jest</strong>
+        </p>
+        <Image src={bos23} alt="23" />
+        <p>Liquidity mamy dopiero tutaj na dole</p>
+        <Image src={bos24} alt="24" />
+        <p>
+          Ale dlaczego nie na tych świecach poprzednich, które też mają mocno
+          knoty w dół?
+        </p>
+        <p>
+          Dlatego, że po liquidity oczekujemy wybicia BoS’a i
+          <strong> powrotu po liquidity</strong> gdzie będziemy szukać entry
+        </p>
+        <Image src={bos25} alt="25" />
+        <p>
+          Jeżeli zrównalibyśmy się z tym low lub go wybili, rezygnujemy z
+          pozycji gdyż jest szansa zejćcia do stref niżej bądź negacji trendu,
+          zostawiamy go całkowicie
+        </p>
+      </section>
+
+      <section>
+        <h2>
+          12. Dodatkowe porady i przykłady - BoS + Fibo (do przetestowania i
+          backtestów)
+        </h2>
+        <p>Mierzymy tak jak normalne Fibo od lewej do prawej</p>
+        <h4>1 Przykład</h4>
+        <p>Tapnięte 1.618 – schodzimy w dół</p>
+        <Image src={bos26} alt="26" />
+        <h4>2 Przykład</h4>
+        <p>Ponownie 1.618 i potencjalnie możemy shortowac</p>
+        <Image src={bos27} alt="27" />
       </section>
 
       <section className={styles.summary}>
