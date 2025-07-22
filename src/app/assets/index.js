@@ -104,6 +104,19 @@ import bos25 from "../assets/bos/bos25.jpg";
 import bos26 from "../assets/bos/bos26.jpg";
 import bos27 from "../assets/bos/bos27.jpg";
 
+import trendline1 from "../assets/trendline/trendline1.jpg";
+import trendline2 from "../assets/trendline/trendline2.jpg";
+import trendline3 from "../assets/trendline/trendline3.jpg";
+import trendline4 from "../assets/trendline/trendline4.jpg";
+import trendline5 from "../assets/trendline/trendline5.jpg";
+import trendline6 from "../assets/trendline/trendline6.jpg";
+import trendline7 from "../assets/trendline/trendline7.jpg";
+import trendline8 from "../assets/trendline/trendline8.jpg";
+import trendline9 from "../assets/trendline/trendline9.jpg";
+import trendline10 from "../assets/trendline/trendline10.jpg";
+import trendline11 from "../assets/trendline/trendline11.jpg";
+import trendline12 from "../assets/trendline/trendline12.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -199,4 +212,16 @@ export {
   bos25,
   bos26,
   bos27,
+  trendline1,
+  trendline2,
+  trendline3,
+  trendline4,
+  trendline5,
+  trendline6,
+  trendline7,
+  trendline8,
+  trendline9,
+  trendline10,
+  trendline11,
+  trendline12,
 };

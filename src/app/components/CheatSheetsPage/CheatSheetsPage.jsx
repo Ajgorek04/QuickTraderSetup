@@ -25,9 +25,6 @@ export default function CheatSheetsPage() {
         <a href="/infoPage/fibo">
           <CheatSheetsCards img={fiboLogo} />
         </a>
-        {/* <a href="/infoPage/fibo">
-          <CheatSheetsCards img={resistanceAndSupportLogo} />
-        </a> */}
         <a href="/infoPage/poc">
           <CheatSheetsCards img={pocLogo} />
         </a>
@@ -59,6 +56,9 @@ export default function CheatSheetsPage() {
           <CheatSheetsCards img={emalogo} />
         </a>
         <a href="/infoPage/bos">
+          <CheatSheetsCards img={boslogo} />
+        </a>
+        <a href="/infoPage/trendline">
           <CheatSheetsCards img={boslogo} />
         </a>
       </div>

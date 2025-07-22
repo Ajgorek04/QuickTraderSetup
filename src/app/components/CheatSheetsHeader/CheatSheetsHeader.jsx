@@ -47,6 +47,9 @@ export default function CheatSheetsHeader() {
           <a href="/infoPage/bos">
             <li>bos</li>
           </a>
+          <a href="/infoPage/trendline">
+            <li>trendline</li>
+          </a>
         </ul>
       </div>
     </header>
