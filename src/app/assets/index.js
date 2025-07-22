@@ -104,6 +104,7 @@ import bos25 from "../assets/bos/bos25.jpg";
 import bos26 from "../assets/bos/bos26.jpg";
 import bos27 from "../assets/bos/bos27.jpg";
 
+import trendlinelogo from "../assets/trendline/trendlinelogo.jpg";
 import trendline1 from "../assets/trendline/trendline1.jpg";
 import trendline2 from "../assets/trendline/trendline2.jpg";
 import trendline3 from "../assets/trendline/trendline3.jpg";
@@ -212,6 +213,7 @@ export {
   bos25,
   bos26,
   bos27,
+  trendlinelogo,
   trendline1,
   trendline2,
   trendline3,
