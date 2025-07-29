@@ -1,8 +1,5 @@
+import styles from "./contact.module.css";
+
 export default function Contact({ children }) {
-  return (
-    <>
-      <h1> Kontakt \/ </h1>
-      {children}
-    </>
-  );
+  return <div className={styles.ContactChildren}>{children}</div>;
 }

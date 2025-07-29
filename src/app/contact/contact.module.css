@@ -1,0 +1,43 @@
+.contact {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+
+.contact h1 {
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.contact a:hover {
+  color: #00e6b8;
+}
+
+.contact h1:hover {
+  color: #00e6b8;
+  transform: translateY(-10px);
+}
+
+.contactChildren {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+.contactChildren:hover {
+  color: #00e6b8;
+}
+
+.contactChildren a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 1s;
+}
+.contactChildren a:hover {
+  color: #00e6b8;
+  text-decoration: underline;
+}
