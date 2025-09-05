@@ -8,23 +8,8 @@
   width: 50%;
 }
 
-.container ul li {
-  margin-left: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.container p,
-.container ul {
-  margin-left: 1rem;
-}
-
 .container h1 {
   text-align: center;
-}
-
-.container h2,
-.container h3 {
-  margin: 1rem 0;
 }
 
 .container img {
@@ -41,4 +26,12 @@
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   padding: 1rem;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container ul li {
+  margin: 1rem;
 }

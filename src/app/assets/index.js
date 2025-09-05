@@ -118,6 +118,22 @@ import trendline10 from "../assets/trendline/trendline10.jpg";
 import trendline11 from "../assets/trendline/trendline11.jpg";
 import trendline12 from "../assets/trendline/trendline12.jpg";
 
+import abclogo from "../assets/abc/abclogo.jpg";
+import abc0 from "../assets/abc/abc0.jpg";
+import abc1 from "../assets/abc/abc1.jpg";
+import abc2 from "../assets/abc/abc2.jpg";
+import abc3 from "../assets/abc/abc3.jpg";
+import abc4 from "../assets/abc/abc4.jpg";
+import abc5 from "../assets/abc/abc5.jpg";
+import abc6 from "../assets/abc/abc6.jpg";
+import abc7 from "../assets/abc/abc7.jpg";
+import abc8 from "../assets/abc/abc8.jpg";
+import abc9 from "../assets/abc/abc9.jpg";
+import abc10 from "../assets/abc/abc10.jpg";
+import abc11 from "../assets/abc/abc11.jpg";
+import abc12 from "../assets/abc/abc12.jpg";
+import abc13 from "../assets/abc/abc13.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -226,4 +242,19 @@ export {
   trendline10,
   trendline11,
   trendline12,
+  abclogo,
+  abc0,
+  abc1,
+  abc2,
+  abc3,
+  abc4,
+  abc5,
+  abc6,
+  abc7,
+  abc8,
+  abc9,
+  abc10,
+  abc11,
+  abc12,
+  abc13,
 };
