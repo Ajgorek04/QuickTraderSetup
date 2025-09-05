@@ -83,30 +83,6 @@ export default function FvgPageComponent() {
           FVG może być respektowane wielokrotnie
         </p>
       </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak wykorzystywać FVG w tradingu?</h2>
-        <div className={styles.summaryItem}>
-          📉 FVG powstaje, gdy na świecy brakuje równowagi – np. przewaga
-          kupujących bez reakcji sprzedających.
-        </div>
-        <div className={styles.summaryItem}>
-          🔍 Identyfikuj takie świece z pomocą wolumenu (np. PVSRA Volume z
-          kolorami).
-        </div>
-        <div className={styles.summaryItem}>
-          📏 Wyznacz strefę FVG od szczytu świecy poprzedzającej do dołka świecy
-          kolejnej po wolumenowej.
-        </div>
-        <div className={styles.summaryItem}>
-          ✳️ Zaznacz środek FVG (0.5 boxa lub FIBO 0.5) – to najczęstszy punkt
-          reakcji ceny.
-        </div>
-        <div className={styles.summaryItem}>
-          🔁 FVG może działać jako wsparcie/opór i być respektowane
-          wielokrotnie.
-        </div>
-      </section>
     </div>
   );
 }

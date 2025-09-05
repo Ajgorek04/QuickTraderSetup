@@ -169,36 +169,6 @@ export default function FiboPageComponent() {
         </p>
         <Image src={fibo11} alt="fibo11" />
       </section>
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak wykorzystywać Fibonacci w tradingu?</h2>
-        <div className={styles.summaryItem}>
-          🎯 Używaj retracementu do szukania potencjalnych stref wejścia w
-          korekcie trendu.
-        </div>
-        <div className={styles.summaryItem}>
-          📈 W silnym trendzie zwracaj uwagę na poziom 0.382 – może dać szybkie
-          odbicie.
-        </div>
-        <div className={styles.summaryItem}>
-          🌀 W słabszym trendzie większe znaczenie mają poziomy 0.5–0.618
-          (golden pocket).
-        </div>
-        <div className={styles.summaryItem}>
-          🔗 Łącz poziomy Fibo z innymi narzędziami: płynnością, średnimi, VWAP,
-          order blockami.
-        </div>
-        <div className={styles.summaryItem}>
-          🎯 Przy ekspansji wyznaczaj TP na poziomach 1.0, 1.272–1.313 i 1.618.
-        </div>
-        <div className={styles.summaryItem}>
-          🧩 Fibo Extended wykorzystuj do szukania zasięgu ruchu i potencjalnych
-          rejonów wejścia.
-        </div>
-        <div className={styles.summaryItem}>
-          ⚠️ Traktuj poziomy jako strefy – nie oczekuj idealnych odbić co do
-          pipsa.
-        </div>
-      </section>
     </div>
   );
 }

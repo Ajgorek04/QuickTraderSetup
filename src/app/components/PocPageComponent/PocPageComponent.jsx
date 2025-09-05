@@ -112,28 +112,6 @@ export default function PocPageComponent() {
         </p>
         <Image src={poc6} alt="poc6" className={styles.img} />
       </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak wykorzystywać POC w tradingu?</h2>
-        <div className={styles.summaryItem}>
-          🎯 Wyznaczaj POC i obserwuj reakcje ceny w jego pobliżu.
-        </div>
-        <div className={styles.summaryItem}>
-          🧭 Sprawdzaj, gdzie przebiegają VAH i VAL – mogą stanowić granice
-          konsolidacji.
-        </div>
-        <div className={styles.summaryItem}>
-          ⚙️ Używaj głębszych lub bardziej lokalnych zakresów Volume Profile w
-          zależności od interwału i stylu gry.
-        </div>
-        <div className={styles.summaryItem}>
-          🧠 Szukaj confluence z innymi narzędziami: Fibonaccim, order blockami,
-          płynnością, średnimi kroczącymi itp.
-        </div>
-        <div className={styles.summaryItem}>
-          🚀 Obserwuj gapy wolumenowe – cena może tam przyspieszyć.
-        </div>
-      </section>
     </div>
   );
 }

@@ -92,7 +92,7 @@ export default function EmaPageComponent() {
       </section>
 
       <section>
-        <h2> Zalety i wady</h2>
+        <h2>6. Zalety i wady</h2>
         <p>✅ Zalety</p>
         <ul>
           <li>Proste i intuicyjne w użyciu</li>
@@ -114,20 +114,6 @@ export default function EmaPageComponent() {
             wymaga doświadczenia
           </li>
         </ul>
-      </section>
-
-      <section className={styles.summary}>
-        <h2>🧠 Wskazówki</h2>
-        <div className={styles.summaryItem}>
-          Dla dynamicznego rynku używaj EMA, a nie SMA
-        </div>
-        <div className={styles.summaryItem}>
-          Nie handluj tylko na podstawie przecięć – potwierdzaj innymi sygnałami
-        </div>
-        <div className={styles.summaryItem}>
-          Używaj kilku średnich naraz, by obserwować strukturę trendu (np. EMA
-          20/50/200)
-        </div>
       </section>
     </div>
   );

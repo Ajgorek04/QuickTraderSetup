@@ -134,37 +134,6 @@ export default function TrendlinePageComponent() {
           wybić longujących i dalej kontynuować wzrost
         </p>
       </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie</h2>
-        <div className={styles.summaryItem}>
-          🔹 Trendline musi mieć min. 3 punkty styku
-        </div>
-        <div className={styles.summaryItem}>
-          📏 Rysuj kanały, nie tylko linię – testowanie góry i dołu =
-          wiarygodność
-        </div>
-        <div></div>
-        <div className={styles.summaryItem}>
-          ⚠️ Uważaj na pułapki SL – fałszywe wybicia przed prawdziwym ruchem
-        </div>
-        <div className={styles.summaryItem}>
-          🎯 TP ustawiaj na poprzednich knotach (lokalnych high/low)
-        </div>
-        <div className={styles.summaryItem}>
-          📈 Zmienność + kąt nachylenia = potencjalne wejście w pozycję
-        </div>
-        <div className={styles.summaryItem}>
-          ⏱️ Najlepsze interwały: 12H, 1D
-        </div>
-        <div className={styles.summaryItem}>
-          🔁 Retest wybicia trendline’u zwiększa wiarygodność setupu
-        </div>
-        <div className={styles.summaryItem}>
-          📐 45° = zdrowy trend, większe od 60° = zbyt stromy, potencjalna
-          korekta
-        </div>
-      </section>
     </div>
   );
 }

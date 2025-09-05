@@ -71,7 +71,7 @@ export default function MacdPageComponent() {
         <p>Dodatkowo warto wiedzieć, że MACD dobrze działa z dywergencjami.</p>
       </section>
       <section>
-        <h1>3. Zalety i wady MACD</h1>
+        <h2>3. Zalety i wady MACD</h2>
         <p>✅ Zalety:</p>
         <ul>
           <li>Przejrzysty i łatwy do interpretacji.</li>
@@ -88,24 +88,6 @@ export default function MacdPageComponent() {
             go jak "pewniak"
           </li>
         </ul>
-      </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak wykorzystywać MACD w tradingu?</h2>
-        <div className={styles.summaryItem}>
-          🎯 Obserwuj przecięcia linii MACD z linią sygnałową oraz z poziomem 0.
-        </div>
-        <div className={styles.summaryItem}>
-          📊 Korzystaj z histogramu do oceny siły trendu.
-        </div>
-        <div className={styles.summaryItem}>
-          🧭 Szukaj dywergencji między MACD a ceną – często wyprzedzają zmianę
-          kierunku.
-        </div>
-        <div className={styles.summaryItem}>
-          🧠 Nie polegaj tylko na MACD – łącz go z innymi narzędziami: poziomami
-          wsparcia/oporu, strukturą rynku, Fibonaccim, wolumenem itp.
-        </div>
       </section>
     </div>
   );

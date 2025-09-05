@@ -119,7 +119,7 @@ export default function CvdPageComponent() {
       </section>
 
       <section>
-        <h2>Zalety i wady CVD</h2>
+        <h2>7. Zalety i wady CVD</h2>
         <p>✅ Zalety:</p>
         <ul>
           <li>Pokazuje rzeczywistą aktywność kupujących i sprzedających.</li>
@@ -141,26 +141,6 @@ export default function CvdPageComponent() {
             zaburzyć jego odczyt, ktoś może pompować cenę.
           </li>
         </ul>
-      </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak wykorzystywać RSI w tradingu?</h2>
-        <div className={styles.summaryItem}>
-          🎯 Używaj CVD, aby ocenić, czy za ruchem cenowym stoi realna presja
-          popytowa/podażowa.
-        </div>
-        <div className={styles.summaryItem}>
-          🔍 Porównuj CVD z zachowaniem ceny – szukaj potwierdzeń lub
-          dywergencji.
-        </div>
-        <div className={styles.summaryItem}>
-          📊 Obserwuj, czy delta „nabiła się” w daną stronę – może to sugerować
-          squeeze lub kontynuację.
-        </div>
-        <div className={styles.summaryItem}>
-          🧠 Łącz CVD z innymi narzędziami: strukturą rynku, SR, Fibonacci,
-          Profilem wolumenowym itp.
-        </div>
       </section>
     </div>
   );

@@ -258,25 +258,6 @@ export default function BosPageComponent() {
         <p>Ponownie 1.618 i potencjalnie możemy shortowac</p>
         <Image src={bos27} alt="27" />
       </section>
-
-      <section className={styles.summary}>
-        <h2>🧾 Podsumowanie – Jak grać BoS'em skutecznie?</h2>
-        <div className={styles.summaryItem}>
-          🎯 BoS + order blocki = skuteczna strategia
-        </div>
-        <div className={styles.summaryItem}>
-          🔐 Zaznaczaj <strong>Protected Low</strong> – miejsce na SL
-        </div>
-        <div className={styles.summaryItem}>
-          ⚔️ Wchodź po potwierdzeniu (np. formacja świecowa, FVG, reakcja ceny)
-        </div>
-        <div className={styles.summaryItem}>
-          ⏳ Zmieniaj TF na niższy, jeśli nie widzisz klarownego setupu
-        </div>
-        <div className={styles.summaryItem}>
-          💡 Unikaj setupów z marną strukturą po wybiciu – liczy się jakość!
-        </div>
-      </section>
     </div>
   );
 }

@@ -51,7 +51,7 @@ export default function MfindexPageComponent() {
       </section>
 
       <section>
-        <h2>Zalety i wady MFI</h2>
+        <h2>4. Zalety i wady MFI</h2>
         <p>✅ Zalety:</p>
         <ul>
           <li>Uwzględnia wolumen, co czyni go bardziej precyzyjnym niż RSI</li>
@@ -69,30 +69,6 @@ export default function MfindexPageComponent() {
           <li>Działa z opóźnieniem, jak inne oscylatory</li>
           <li>Wymaga dokładnych danych wolumenu</li>
         </ul>
-      </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak korzystać z MFI w praktyce?</h2>
-        <div className={styles.summaryItem}>
-          🧮 Obserwuj poziomy 80 / 20 – sygnalizują wykupienie lub wyprzedanie
-          rynku.
-        </div>
-        <div className={styles.summaryItem}>
-          📊 Traktuj linię 50 jako barometr siły rynku – powyżej przewaga
-          kupujących, poniżej – sprzedających.
-        </div>
-        <div className={styles.summaryItem}>
-          📉 Wykrywaj dywergencje – rozbieżności między MFI a ceną często
-          zapowiadają zmianę trendu.
-        </div>
-        <div className={styles.summaryItem}>
-          🔗 Łącz MFI z innymi wskaźnikami – MACD, średnie kroczące, SR,
-          wolumen, aby zwiększyć skuteczność analizy.
-        </div>
-        <div className={styles.summaryItem}>
-          ⚠️ Unikaj ślepego zaufania do MFI w niskiej płynności lub podczas
-          konsolidacji – może generować mylące sygnały.
-        </div>
       </section>
     </div>
   );

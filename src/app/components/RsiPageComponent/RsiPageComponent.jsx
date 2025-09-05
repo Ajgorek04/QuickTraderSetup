@@ -51,7 +51,7 @@ export default function RsiPageComponent() {
       </section>
 
       <section>
-        <h2>Jak interpretować RSI</h2>
+        <h2>3. Jak interpretować RSI</h2>
         <p>
           W silnych trendach RSI może długo pozostawać w strefie wykupienia lub
           wyprzedania, więc nie możemy wtedy oczekiwać natychmiastowego
@@ -68,7 +68,7 @@ export default function RsiPageComponent() {
       </section>
 
       <section>
-        <h2>Zalety i wady RSI</h2>
+        <h2>4. Zalety i wady RSI</h2>
         <p>✅ Zalety:</p>
         <ul>
           <li>Prosty i intuicyjny w użyciu.</li>
@@ -82,27 +82,6 @@ export default function RsiPageComponent() {
           </li>
           <li>Podobnie jak inne oscylatory – działa z opóźnieniem.</li>
         </ul>
-      </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak wykorzystywać RSI w tradingu?</h2>
-        <div className={styles.summaryItem}>
-          🎯 Obserwuj poziomy 30 / 70 (lub inne jeśli je zmieniłeś pod swoje
-          preferencje) – pomagają wychwycić ekstremy rynku.
-        </div>
-        <div className={styles.summaryItem}>
-          🧭 Używaj RSI na kilku interwałach, aby potwierdzać sygnały.
-        </div>
-        <div className={styles.summaryItem}>
-          📊 Traktuj poziom 50 jako pomocniczy wskaźnik kierunku.
-        </div>
-        <div className={styles.summaryItem}>
-          🔍 Szukaj dywergencji między RSI a ceną – to często skuteczne sygnały.
-        </div>
-        <div className={styles.summaryItem}>
-          ⚙️ Łącz RSI z innymi wskaźnikami technicznymi, aby zwiększyć trafność
-          decyzji.
-        </div>
       </section>
     </div>
   );

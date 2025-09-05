@@ -62,7 +62,7 @@ export default function HurstaPageComponent() {
       </section>
 
       <section>
-        <h2>Zalety i wady</h2>
+        <h2>4. Zalety i wady</h2>
         <p>✅ Zalety</p>
         <ul>
           <li>Umożliwia identyfikację cykli rynkowych</li>
@@ -77,32 +77,6 @@ export default function HurstaPageComponent() {
             chaotycznych
           </li>
         </ul>
-      </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Jak korzystać z MFI w praktyce?</h2>
-        <div className={styles.summaryItem}>
-          🎯 Identyfikuj cykle rynkowe – kanały pomagają zrozumieć, w jakiej
-          fazie cyklu znajduje się rynek: akumulacji, wzrostu, dystrybucji czy
-          spadku.
-        </div>
-        <div className={styles.summaryItem}>
-          📉 Obserwuj granice kanału – zbliżenie się do dolnej lub górnej linii
-          często oznacza zwiększone prawdopodobieństwo reakcji ceny (odbicia lub
-          wybicia).
-        </div>
-        <div className={styles.summaryItem}>
-          📊 Korzystaj z linii środkowej – środkowa linia kanału może działać
-          jako dynamiczny opór/wsparcie oraz oś rotacyjna ceny.
-        </div>
-        <div className={styles.summaryItem}>
-          🔍 Potwierdzaj inne sygnały – kanały Hursta są dużo skuteczniejsze w
-          połączeniu z RSI, MACD itp.
-        </div>
-        <div className={styles.summaryItem}>
-          🚫 Unikaj użycia w chaotycznych rynkach – podczas dużej zmienności lub
-          newsów skuteczność kanałów spada, więc stosuj ostrożnie.
-        </div>
       </section>
     </div>
   );

@@ -52,21 +52,6 @@ export default function OiPageComponent() {
           <li>📉 Może wskazywać na osłabienie trendu wzrostowego.</li>
         </ul>
       </section>
-
-      <section className={styles.summary}>
-        <h2>Podsumowanie – 🧠 Co nam daje OI?</h2>
-        <div className={styles.summaryItem}>
-          Pokazuje zaangażowanie inwestorów w rynek – czy przybywa nowych
-          pozycji.
-        </div>
-        <div className={styles.summaryItem}>
-          Pomaga ocenić siłę i trwałość trendu.
-        </div>
-        <div className={styles.summaryItem}>
-          Może sygnalizować zbliżające się odwrócenie, gdy maleje mimo ruchu
-          ceny.
-        </div>
-      </section>
     </div>
   );
 }

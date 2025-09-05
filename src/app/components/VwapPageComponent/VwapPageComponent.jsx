@@ -82,7 +82,7 @@ export default function VwapPageComponent() {
         <p>⚠️ Ruch bez wolumenu = ostrzeżenie</p>
       </section>
       <section>
-        <h1>5. Rozgrywanie VWAPA w trendzie - przykład</h1>
+        <h2>5. Rozgrywanie VWAPA w trendzie - przykład</h2>
         <p>
           VWAP najlepiej działa w trendzie. Klucz to zapięcie VWAP-u na początku
           ruchu.
@@ -94,7 +94,7 @@ export default function VwapPageComponent() {
         </p>
       </section>
       <section>
-        <h1>6. Reclaims</h1>
+        <h2>6. Reclaims</h2>
         <p>
           Reclaims to pattern gdzie po mocnym spadku mamy powrót nad VWAPY gdzie
           zaczyna się konsolidacja albo odrazu jest odbicie, często takiej
@@ -107,34 +107,6 @@ export default function VwapPageComponent() {
           nad VWAPAMI i ruch w górę.
         </h4>
         <Image src={vwap6} alt="vwap6" className={styles.img} />
-      </section>
-      <section className={styles.summary}>
-        <h2>Podsumowanie – Kluczowe zasady</h2>
-
-        <div className={styles.summaryItem}>
-          🎯 VWAP = rzeczywista cena rynku – obserwuj, jak cena reaguje w jego
-          pobliżu.
-        </div>
-
-        <div className={styles.summaryItem}>
-          📍 Zapinaj VWAP na starcie trendu – to Twoja linia przewodnia dla
-          wejść i trzymania pozycji.
-        </div>
-
-        <div className={styles.summaryItem}>
-          📊 Płaski VWAP = konsolidacja – graj odbicia od odchyleń lub czekaj na
-          wybicie.
-        </div>
-
-        <div className={styles.summaryItem}>
-          🔁 Reclaim VWAP = sygnał siły – po spadku szukaj powrotu nad VWAP i
-          konsolidacji.
-        </div>
-
-        <div className={styles.summaryItem}>
-          🚩 Brak wolumenu = fałszywy ruch – jeśli VWAP stoi, nie daj się złapać
-          na bulltrap.
-        </div>
       </section>
     </div>
   );

@@ -7,9 +7,10 @@
 }
 
 body {
-  background-image: url("../../public/background.jpg");
-  background-size: cover;
+  background-image: url("../../public/background2.jpg");
+  background-size: contain;
   background-position: center;
+  background-attachment: fixed;
   display: flex;
   min-height: 100vh;
 }
@@ -28,30 +29,23 @@ main {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(20, 20, 30, 0.4);
+  background: rgba(10, 20, 20, 0.4);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    180deg,
-    rgba(98, 0, 234, 0.7),
-    rgba(0, 212, 255, 0.6)
-  );
+  background: linear-gradient(180deg, #00ffe0, #00ffb7);
   border-radius: 10px;
-  border: 2px solid rgba(20, 20, 30, 0.4);
-  box-shadow: 0 0 5px rgba(0, 212, 255, 0.3);
+  border: 2px solid rgba(10, 20, 20, 0.4);
+  box-shadow: 0 0 6px rgba(0, 255, 183, 0.5);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(
-    180deg,
-    rgba(98, 0, 234, 0.9),
-    rgba(0, 212, 255, 0.9)
-  );
+  background: linear-gradient(180deg, #00fff2, #00ffb7);
+  box-shadow: 0 0 10px rgba(0, 255, 183, 0.7);
 }
 
 /* Firefox */
 html {
   scrollbar-width: thin;
-  scrollbar-color: rgba(98, 0, 234, 0.7) rgba(20, 20, 30, 0.4);
+  scrollbar-color: #00ffb7 rgba(10, 20, 20, 0.4);
 }
