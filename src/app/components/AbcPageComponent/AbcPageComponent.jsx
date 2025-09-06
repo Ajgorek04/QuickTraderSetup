@@ -23,7 +23,7 @@ export default function AbcPageComponent() {
       <h1> Korekta ABC według Deepa </h1>
 
       <section>
-        <h2>1. Teoria</h2>
+        <h2 className="navbar">1. Teoria</h2>
         <h3> Korekta prosta ABC </h3>
         <ul>
           <li>
@@ -80,7 +80,7 @@ export default function AbcPageComponent() {
         </ul>
       </section>
       <section>
-        <h2>2. Wprowadzenie</h2>
+        <h2 className="navbar">2. Wprowadzenie</h2>
         <p>Ustawienia Fibo</p>
         <Image src={abc0} alt="abc0" />
         <p>
@@ -114,7 +114,7 @@ export default function AbcPageComponent() {
         <Image src={abc2} alt="abc2" />
       </section>
       <section>
-        <h2>3. Rozgrywanie</h2>
+        <h2 className="navbar">3. Rozgrywanie</h2>
         <p>Ciągniemy fibo od low do high</p>
         <Image src={abc3} alt="abc3" />
         <p>Korekta występuje wtedy kiedy wykres przebija 0.5.</p>
@@ -168,7 +168,7 @@ export default function AbcPageComponent() {
         </p>
       </section>
       <section>
-        <h2>Dodatkowe Uwagi</h2>
+        <h2 className="navbar">4. Dodatkowe Uwagi</h2>
         <h3>Kiedy ta metodologia nie działa?</h3>
         <p>Gdy mamy korektę trójkątną - jest ona stricte eliotowska</p>
         <p>Ta korekta występuje najczęściej w Fali 4 i w Fali B</p>

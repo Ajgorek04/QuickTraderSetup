@@ -21,7 +21,7 @@ export default function FiboPageComponent() {
       <h1>Fibonacci Retracement</h1>
 
       <section className={styles}>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <p>
           Poziomy fibo pomagają wyznaczyć potencjalne poziomy wsparcia i oporu
           na rynku, szczególnie w trakcie korekt w obrębie dominującego trendu.
@@ -33,7 +33,7 @@ export default function FiboPageComponent() {
       </section>
 
       <section className={styles.sectionClass}>
-        <h2>2. Najważniejsze poziomy Fibonacciego</h2>
+        <h2 className="navbar">2. Najważniejsze poziomy Fibonacciego</h2>
         <p>Mogą się różnić w zależności od metodologii i preferencji</p>
         <Image src={poziomyFibo} alt="poziomyFibo" />
         <ul>
@@ -50,7 +50,9 @@ export default function FiboPageComponent() {
       </section>
 
       <section>
-        <h2>3. Jak korzystać z Fibonacci Retracement – Praktyka</h2>
+        <h2 className="navbar">
+          3. Jak korzystać z Fibonacci Retracement – Praktyka
+        </h2>
         <h3>Krok 1: Wyznaczenie trendu</h3>
         <ul>
           <li>
@@ -91,7 +93,7 @@ export default function FiboPageComponent() {
       </section>
 
       <section>
-        <h2>4. Zbieranie Take Profitów</h2>
+        <h2 className="navbar">4. Zbieranie Take Profitów</h2>
         <p>
           TP można zbierać przy poziomach Fibo. <br />
           <br />
@@ -104,7 +106,9 @@ export default function FiboPageComponent() {
       </section>
 
       <section>
-        <h2>5. Fibonacci Expansion – Wyznaczanie targetów</h2>
+        <h2 className="navbar">
+          5. Fibonacci Expansion – Wyznaczanie targetów
+        </h2>
         <p>
           Expansion pozwala wyznaczać TP przy kontynuacji trendu <br />
           Jak zaznaczamy:
@@ -129,7 +133,9 @@ export default function FiboPageComponent() {
       </section>
 
       <section>
-        <h2>6. Fibonacci Extended – Głębsza analiza kontynuacji</h2>
+        <h2 className="navbar">
+          6. Fibonacci Extended – Głębsza analiza kontynuacji
+        </h2>
         <p>
           Będzie pokazywało zakres danego ruchu zaznaczonego swinga pod
           kontynuajcę np. ruchu wzrostowego.
