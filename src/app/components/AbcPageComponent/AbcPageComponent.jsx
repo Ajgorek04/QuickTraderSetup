@@ -103,8 +103,9 @@ export default function AbcPageComponent() {
           </li>
         </ul>
         <p>
-          Przypadek z korektą nieregularną, gdzie B wybija fale A, najczęściej
-          jest to strefa 1.15 - 1.27, ale może się zdarzyć 1.618 lub też 2.618
+          <strong>Przypadek z korektą nieregularną</strong>, gdzie B wybija fale
+          A, najczęściej jest to strefa 1.15 - 1.27, ale może się zdarzyć 1.618
+          lub też 2.618
         </p>
         <p>
           W takim przypadku fala C nie ma już długości 1:1 jak w poprzednim

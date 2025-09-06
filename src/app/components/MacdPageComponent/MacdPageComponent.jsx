@@ -11,7 +11,7 @@ export default function MacdPageComponent() {
       <h1>MACD – Moving Average Convergence Divergence</h1>
 
       <section className={styles}>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="naglowek">1. Wprowadzenie</h2>
         <Image src={macd1} alt="macd1" />
         <p>
           MACD to popularny oscylator używany w analizie technicznej, służący
@@ -71,7 +71,7 @@ export default function MacdPageComponent() {
         <p>Dodatkowo warto wiedzieć, że MACD dobrze działa z dywergencjami.</p>
       </section>
       <section>
-        <h2>3. Zalety i wady MACD</h2>
+        <h2 className="naglowek">3. Zalety i wady MACD</h2>
         <p>✅ Zalety:</p>
         <ul>
           <li>Przejrzysty i łatwy do interpretacji.</li>
