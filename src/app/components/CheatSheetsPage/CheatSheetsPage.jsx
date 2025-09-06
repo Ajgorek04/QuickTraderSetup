@@ -17,6 +17,7 @@ import {
   boslogo,
   trendlinelogo,
   abclogo,
+  hyblocklogo,
 } from "@/assets";
 
 export default function CheatSheetsPage() {
@@ -65,6 +66,9 @@ export default function CheatSheetsPage() {
         </a>
         <a href="/infoPage/abc">
           <CheatSheetsCards img={abclogo} />
+        </a>
+        <a href="/infoPage/hyblock">
+          <CheatSheetsCards img={hyblocklogo} />
         </a>
       </div>
     </div>

@@ -134,6 +134,11 @@ import abc11 from "../assets/abc/abc11.jpg";
 import abc12 from "../assets/abc/abc12.jpg";
 import abc13 from "../assets/abc/abc13.jpg";
 
+import hyblocklogo from "../assets/hyblock/hyblocklogo.jpg";
+import hyblock1 from "../assets/hyblock/hyblock1.jpg";
+import hyblock2 from "../assets/hyblock/hyblock2.jpg";
+import hyblock3 from "../assets/hyblock/hyblock3.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -257,4 +262,8 @@ export {
   abc11,
   abc12,
   abc13,
+  hyblock1,
+  hyblock2,
+  hyblock3,
+  hyblocklogo,
 };
