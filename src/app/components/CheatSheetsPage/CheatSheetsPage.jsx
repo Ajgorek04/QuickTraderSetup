@@ -1,25 +1,7 @@
 import CheatSheetsCards from "../CheatSheetsCards/CheatSheetsCards";
 import CheatSheetsHeader from "../CheatSheetsHeader/CheatSheetsHeader";
 import styles from "./CheatSheetsPage.module.css";
-import {
-  fiboLogo,
-  resistanceAndSupportLogo,
-  pocLogo,
-  vaplogo,
-  fvgLogo,
-  macdlogo,
-  rsilogo,
-  cvdlogo,
-  oilogo,
-  mfilogo,
-  hurstalogo,
-  emalogo,
-  boslogo,
-  trendlinelogo,
-  abclogo,
-  hyblocklogo,
-  oblogo,
-} from "@/assets";
+import { logos } from "@/assets";
 
 export default function CheatSheetsPage() {
   return (
@@ -27,52 +9,52 @@ export default function CheatSheetsPage() {
       <CheatSheetsHeader />
       <div className={styles.contentCards}>
         <a href="/infoPage/fibo">
-          <CheatSheetsCards img={fiboLogo} />
+          <CheatSheetsCards img={logos[0]} />
         </a>
         <a href="/infoPage/poc">
-          <CheatSheetsCards img={pocLogo} />
+          <CheatSheetsCards img={logos[1]} />
         </a>
         <a href="/infoPage/vwap">
-          <CheatSheetsCards img={vaplogo} />
+          <CheatSheetsCards img={logos[2]} />
         </a>
         <a href="/infoPage/fvg">
-          <CheatSheetsCards img={fvgLogo} />
+          <CheatSheetsCards img={logos[3]} />
         </a>
         <a href="/infoPage/macd">
-          <CheatSheetsCards img={macdlogo} />
+          <CheatSheetsCards img={logos[4]} />
         </a>
         <a href="/infoPage/rsi">
-          <CheatSheetsCards img={rsilogo} />
+          <CheatSheetsCards img={logos[5]} />
         </a>
         <a href="/infoPage/cvd">
-          <CheatSheetsCards img={cvdlogo} />
+          <CheatSheetsCards img={logos[6]} />
         </a>
         <a href="/infoPage/oi">
-          <CheatSheetsCards img={oilogo} />
+          <CheatSheetsCards img={logos[7]} />
         </a>
         <a href="/infoPage/mfi">
-          <CheatSheetsCards img={mfilogo} />
+          <CheatSheetsCards img={logos[8]} />
         </a>
         <a href="/infoPage/hursta">
-          <CheatSheetsCards img={hurstalogo} />
+          <CheatSheetsCards img={logos[9]} />
         </a>
         <a href="/infoPage/ema">
-          <CheatSheetsCards img={emalogo} />
+          <CheatSheetsCards img={logos[10]} />
         </a>
         <a href="/infoPage/bos">
-          <CheatSheetsCards img={boslogo} />
+          <CheatSheetsCards img={logos[11]} />
         </a>
         <a href="/infoPage/trendline">
-          <CheatSheetsCards img={trendlinelogo} />
+          <CheatSheetsCards img={logos[12]} />
         </a>
         <a href="/infoPage/abc">
-          <CheatSheetsCards img={abclogo} />
+          <CheatSheetsCards img={logos[13]} />
         </a>
         <a href="/infoPage/hyblock">
-          <CheatSheetsCards img={hyblocklogo} />
+          <CheatSheetsCards img={logos[14]} />
         </a>
         <a href="/infoPage/orderblock">
-          <CheatSheetsCards img={oblogo} />
+          <CheatSheetsCards img={logos[15]} />
         </a>
       </div>
     </div>

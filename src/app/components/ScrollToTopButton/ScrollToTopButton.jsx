@@ -22,6 +22,7 @@ export default function ScrollToTopButton() {
 
   return (
     <button onClick={scrollToTop} className={styles.scrollToTop}>
+      BACK TO TOP
       <Image src="/up-arrow.png" alt="uparrow" width={32} height={32} />
     </button>
   );

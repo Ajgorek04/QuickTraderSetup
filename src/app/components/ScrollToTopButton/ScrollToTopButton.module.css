@@ -1,10 +1,16 @@
 .scrollToTop {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 2rem;
+  right: 2rem;
   cursor: pointer;
   transition: transform 0.3s ease;
   z-index: 999;
+  background-color: transparent;
+  border: none;
+  color: #fff;
 }
 .scrollToTop:hover {
   transform: scale(1.1);
