@@ -12,7 +12,7 @@ export default function FvgPageComponent() {
       <h1>Fair Value Gap (FVG)</h1>
 
       <section className={styles}>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <p>
           Fair Value Gap (FVG) to luka cenowa powstająca na wykresie w sytuacji,
           gdy rynek porusza się bez równowagi pomiędzy stroną kupującą (Buy
@@ -31,7 +31,7 @@ export default function FvgPageComponent() {
         <Image src={fvg0} alt="fvgTool" className={styles.img} />
       </section>
       <section>
-        <h2>2. Jak i kiedy powstaje FVG</h2>
+        <h2 className="navbar">2. Jak i kiedy powstaje FVG</h2>
         <p>
           FVG pojawia się zazwyczaj na świecach o wysokim wolumenie, gdzie
           większość transakcji była realizowana tylko po jednej stronie – np.
@@ -47,7 +47,7 @@ export default function FvgPageComponent() {
         </p>
       </section>
       <section>
-        <h2>3. Wyznaczanie FVG</h2>
+        <h2 className="navbar">3. Wyznaczanie FVG</h2>
         <p>
           Znajdujemy świecę wolumenową (tę z silnym ruchem i wysokim wolumenem).
         </p>

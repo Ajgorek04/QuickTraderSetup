@@ -9,7 +9,7 @@ export default function HurstaPageComponent() {
     <div className={styles.container}>
       <h1>Kanały Hursta – identyfikacja cykli rynkowych</h1>
       <section>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <Image src={hursta1} alt="hursta1" />
         <p>
           Kanały Hursta to narzędzie analizy technicznej służące do
@@ -19,7 +19,7 @@ export default function HurstaPageComponent() {
         </p>
       </section>
       <section>
-        <h2>2. Budowa kanałów</h2>
+        <h2 className="navbar">2. Budowa kanałów</h2>
         <p>
           KanaŁy hursta są rysowane na wykresie cenowym jako 2 równoległe pasma
           górne i dolne tworzące kanał.
@@ -32,7 +32,7 @@ export default function HurstaPageComponent() {
       </section>
 
       <section>
-        <h2>3. Jak interpretować kanały Hursta</h2>
+        <h2 className="navbar">3. Jak interpretować kanały Hursta</h2>
         <p>🔹 Ruch w kanale:</p>
         <ul>
           <li>
@@ -62,7 +62,7 @@ export default function HurstaPageComponent() {
       </section>
 
       <section>
-        <h2>4. Zalety i wady</h2>
+        <h2 className="navbar">4. Zalety i wady</h2>
         <p>✅ Zalety</p>
         <ul>
           <li>Umożliwia identyfikację cykli rynkowych</li>

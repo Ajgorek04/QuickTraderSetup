@@ -21,7 +21,7 @@ export default function TrendlinePageComponent() {
     <div className={styles.container}>
       <h1>Trendline - linia trendu</h1>
       <section>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <p>
           Mamy klaster, który chcemy rozegrać – zaznaczamy linię trendu
           (Trendline)
@@ -40,7 +40,7 @@ export default function TrendlinePageComponent() {
       </section>
 
       <section>
-        <h2>2. Kanał trendu</h2>
+        <h2 className="navbar">2. Kanał trendu</h2>
         <p>Nasz kanał / naszą strefę najlepiej zaznaczać za pomocą narzędzia</p>
         <Image src={trendline3} alt="trendline3" className={styles.img} />
         <p>
@@ -60,7 +60,7 @@ export default function TrendlinePageComponent() {
       </section>
 
       <section>
-        <h2>3. Na co uważać przed wybiciem trendline’u?</h2>
+        <h2 className="navbar">3. Na co uważać przed wybiciem trendline’u?</h2>
         <ul>
           <li>
             Często przed wybiciem mocnym trendline’u jest zrobienie nowego dołka
@@ -80,7 +80,7 @@ export default function TrendlinePageComponent() {
       </section>
 
       <section>
-        <h2>4. TF i TP</h2>
+        <h2 className="navbar">4. TF i TP</h2>
         <h4>Time frame'y – Najlepiej 12H, 1D</h4>
         <h4>Jak możemy zgarnąć TP przy rozgrywaniu wybicia?</h4>
         <p>
@@ -91,7 +91,7 @@ export default function TrendlinePageComponent() {
       </section>
 
       <section>
-        <h2>5. Kąt nachylenia</h2>
+        <h2 className="navbar">5. Kąt nachylenia</h2>
         <p>Okresla stromość linii trendu – miara tempa zmiany cen</p>
         <Image src={trendline8} alt="trendline8" className={styles.img} />
         <p>
@@ -123,7 +123,7 @@ export default function TrendlinePageComponent() {
       </section>
 
       <section>
-        <h2>6. Optymalny kąt nachylenia</h2>
+        <h2 className="navbar">6. Optymalny kąt nachylenia</h2>
         <p>
           45 stopni nachylenia to jest optymalny kąt nachylenia trendu
           wzrostowego, uznawany jest jako stabilny, zdrowy trend wzrostowy

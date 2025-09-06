@@ -18,7 +18,7 @@ export default function PocPageComponent() {
       <h1>POC - Point Of Control</h1>
 
       <section className={styles}>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <p>
           POC to najważniejszy poziom wolumenowy – miejsce, gdzie wystąpił
           największy obrót (najwyższy wolumen) w wybranym zakresie czasu. Często
@@ -38,7 +38,7 @@ export default function PocPageComponent() {
       </section>
 
       <section>
-        <h2>2. Podstawowe ustawienia POC</h2>
+        <h2 className="navbar">2. Podstawowe ustawienia POC</h2>
         <p>
           Ustawienia POC i profilu wolumenowego można dostosować do własnych
           preferencji. <br />
@@ -52,7 +52,7 @@ export default function PocPageComponent() {
       </section>
 
       <section>
-        <h2>3. Jak zaznaczać Volume Profile - Praktyka </h2>
+        <h2 className="navbar">3. Jak zaznaczać Volume Profile - Praktyka </h2>
         <h3>A. Klaster impulsu</h3>
         <p>
           Wybieramy fragment wykresu, na którym chcemy analizować wolumen (np.
@@ -93,7 +93,7 @@ export default function PocPageComponent() {
       </section>
 
       <section>
-        <h2>4. Gapy wolumenowe i "dziury" w profilu </h2>
+        <h2 className="navbar">4. Gapy wolumenowe i "dziury" w profilu </h2>
         <ul>
           <li>
             W profilu wolumenowym występują miejsca o bardzo niskim wolumenie –

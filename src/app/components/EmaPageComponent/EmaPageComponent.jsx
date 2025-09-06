@@ -9,7 +9,7 @@ export default function EmaPageComponent() {
       <h1>Średnie Kroczące – SMA, EMA, WMA</h1>
 
       <section>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <Image src={ema1} alt="ema1" />
         <p>
           Średnie kroczące to jedno z najprostszych i najpopularniejszych
@@ -18,7 +18,7 @@ export default function EmaPageComponent() {
         </p>
       </section>
       <section>
-        <h2>2. Rodzaje średnich kroczących</h2>
+        <h2 className="navbar">2. Rodzaje średnich kroczących</h2>
         <p>🔹 SMA (Simple Moving Average)</p>
         <ul>
           <li>
@@ -45,7 +45,7 @@ export default function EmaPageComponent() {
       </section>
 
       <section>
-        <h2>3. Najczęsciej stosowane okresy średnich</h2>
+        <h2 className="navbar">3. Najczęsciej stosowane okresy średnich</h2>
         <Image src={ema2} alt="ema2" />
         <ul>
           <li>Dla trendów długoterminowych 50 100 200</li>
@@ -54,7 +54,7 @@ export default function EmaPageComponent() {
       </section>
 
       <section>
-        <h2>4. Jak interpretować średnie</h2>
+        <h2 className="navbar">4. Jak interpretować średnie</h2>
         <p>🔸 Cena powyżej średniej = trend wzrostowy</p>
         <p>Przyklad: Cena wybiła się powyżej średniej i została utrzymywana</p>
         <Image src={ema3} alt="ema3" />
@@ -71,7 +71,7 @@ export default function EmaPageComponent() {
       </section>
 
       <section>
-        <h2>5. Przecięcia średnich</h2>
+        <h2 className="navbar">5. Przecięcia średnich</h2>
         <p>📈 Golden Cross</p>
         <ul>
           <li>
@@ -92,7 +92,7 @@ export default function EmaPageComponent() {
       </section>
 
       <section>
-        <h2>6. Zalety i wady</h2>
+        <h2 className="navbar">6. Zalety i wady</h2>
         <p>✅ Zalety</p>
         <ul>
           <li>Proste i intuicyjne w użyciu</li>

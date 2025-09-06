@@ -8,7 +8,7 @@ export default function OiPageComponent() {
     <div className={styles.container}>
       <h1>OI – Open Interest</h1>
       <section>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <Image src={oi1} alt="oi1" />
         <p>
           Open Interest to wskażnik mierzący całkowitą liczbę kontraktów, które
@@ -24,7 +24,7 @@ export default function OiPageComponent() {
       </section>
 
       <section>
-        <h2>2. Jak interpretować OI</h2>
+        <h2 className="navbar">2. Jak interpretować OI</h2>
 
         <p>🔼 Wzrost OI + wzrost ceny:</p>
         <ul>

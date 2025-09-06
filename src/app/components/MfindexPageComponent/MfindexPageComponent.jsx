@@ -9,7 +9,7 @@ export default function MfindexPageComponent() {
       <h1>MFI – Money Flow Index</h1>
 
       <section>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <Image src={mfi1} alt="mfi1" />
 
         <p>
@@ -20,7 +20,7 @@ export default function MfindexPageComponent() {
         </p>
       </section>
       <section>
-        <h2>2. Jak działa MFI ?</h2>
+        <h2 className="navbar">2. Jak działa MFI ?</h2>
         <p>
           MFI działa podobnie do RSI ale będzie bardziej dokładne ( zapoznaj się
           najpierw z RSI ).
@@ -38,7 +38,7 @@ export default function MfindexPageComponent() {
       </section>
 
       <section>
-        <h2>3. Dywergencje z MFI</h2>
+        <h2 className="navbar">3. Dywergencje z MFI</h2>
         <p>Dywergencje między MFI a ceną dają istotne sygnały:</p>
         <ul>
           <li>Cena rośnie, MFI spada → osłabienie trendu wzrostowego,</li>
@@ -51,7 +51,7 @@ export default function MfindexPageComponent() {
       </section>
 
       <section>
-        <h2>4. Zalety i wady MFI</h2>
+        <h2 className="navbar">4. Zalety i wady MFI</h2>
         <p>✅ Zalety:</p>
         <ul>
           <li>Uwzględnia wolumen, co czyni go bardziej precyzyjnym niż RSI</li>

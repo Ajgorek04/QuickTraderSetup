@@ -8,7 +8,7 @@ export default function VwapPageComponent() {
       <h1>VWAP (Volume Weighted Average Price) </h1>
 
       <section className={styles}>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <p>
           VWAP to narzędzie pokazujące średnią ważoną wolumenem, która pokazuje
           realną średnią cenę aktywa w danym dniu, sesji lub trendzie. W
@@ -20,7 +20,7 @@ export default function VwapPageComponent() {
         <Image src={vwaptool} alt="vwaptool" className={styles.vwaptool} />
       </section>
       <section>
-        <h2>2. Dlaczego VWAP &gt; EMA?</h2>
+        <h2 className="navbar">2. Dlaczego VWAP &gt; EMA?</h2>
         <table className={styles.table}>
           <thead>
             <tr>
@@ -59,12 +59,12 @@ export default function VwapPageComponent() {
         </p>
       </section>
       <section>
-        <h2> 3. Jak dodać VWAP do wykresu</h2>
+        <h2 className="navbar"> 3. Jak dodać VWAP do wykresu</h2>
         <p>Przykładowo na rozpoczęciu trendu</p>
         <Image src={vwap1} alt="vwap1" className={styles.img} />
       </section>
       <section>
-        <h2>4. VWAP w konsolidacji i trendzie</h2>
+        <h2 className="navbar">4. VWAP w konsolidacji i trendzie</h2>
         <p>
           Vwap najlepiej sprawdza się jednak w trendzie. W konsoli powinien być
           płaski bo wolumen jest w miarę równo rozłożony. Pierwsze odchylenie
@@ -82,7 +82,7 @@ export default function VwapPageComponent() {
         <p>⚠️ Ruch bez wolumenu = ostrzeżenie</p>
       </section>
       <section>
-        <h2>5. Rozgrywanie VWAPA w trendzie - przykład</h2>
+        <h2 className="navbar">5. Rozgrywanie VWAPA w trendzie - przykład</h2>
         <p>
           VWAP najlepiej działa w trendzie. Klucz to zapięcie VWAP-u na początku
           ruchu.
@@ -94,7 +94,7 @@ export default function VwapPageComponent() {
         </p>
       </section>
       <section>
-        <h2>6. Reclaims</h2>
+        <h2 className="navbar">6. Reclaims</h2>
         <p>
           Reclaims to pattern gdzie po mocnym spadku mamy powrót nad VWAPY gdzie
           zaczyna się konsolidacja albo odrazu jest odbicie, często takiej

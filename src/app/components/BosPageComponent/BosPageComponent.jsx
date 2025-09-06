@@ -36,7 +36,7 @@ export default function BosPageComponent() {
       <h1> Break of Structure (BoS) </h1>
 
       <section>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <p>
           Break of Structure jest wtedy, kiedy koniec knota wbija się w
           <strong> body</strong> świecy.
@@ -45,7 +45,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>2. Fake BoS</h2>
+        <h2 className="navbar">2. Fake BoS</h2>
         <p>
           Żeby BoS był wysokiej jakości i był prawdziwy to low świecy
           poprzedzającej BoS'a musi zostać przetestowane przez strefę BoS'a
@@ -54,7 +54,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>3. Fibo bez Fibo</h2>
+        <h2 className="navbar">3. Fibo bez Fibo</h2>
         <div className={styles.fiboUstawienia}>
           <Image src={bos2} alt="bos2" />
           <Image src={bos3} alt="bos3" />
@@ -62,7 +62,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>4. Rozrysowanie BoS</h2>
+        <h2 className="navbar">4. Rozrysowanie BoS</h2>
         <p>
           W strefie BoS najważniejszy jest dołek – protected low, po wybiciu
           którego, możemy dostać zmianę charakteru trendu.
@@ -71,7 +71,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>5. Jak szukamy trade'a - najprostsza metoda</h2>
+        <h2 className="navbar">5. Jak szukamy trade'a - najprostsza metoda</h2>
         <ul>
           <li>
             <strong>Entry:</strong> na lub tuż powyżej linii BoS
@@ -87,7 +87,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2> 6. Przykład zagrania</h2>
+        <h2 className="navbar"> 6. Przykład zagrania</h2>
         <Image src={bos6} alt="bos6" />
         <p>Mamy: </p>
         <ul>
@@ -122,7 +122,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>7. Na co jeszcze zwrócić uwagę ?</h2>
+        <h2 className="navbar">7. Na co jeszcze zwrócić uwagę ?</h2>
         <ul>
           <li>
             Knot zawraca nad linią BoS – nie dotykając jej → nie jest to
@@ -140,7 +140,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>8. Kolejny przykład</h2>
+        <h2 className="navbar">8. Kolejny przykład</h2>
         <p>
           Mamy tutaj jakieś low i czekamy na potwierdzenie BoS’a, czy to już
           jest trend spadkowy
@@ -185,7 +185,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>9. Przykład na BTC</h2>
+        <h2 className="navbar">9. Przykład na BTC</h2>
         <p>
           Mamy tapnięcie strefy – tutaj nam powstała płynność i to jest coś po
           co wykres powinien wrócić, więc jeżeli zaczniemy spadać, to do longa
@@ -208,7 +208,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>10. Dodatkowe informacje</h2>
+        <h2 className="navbar">10. Dodatkowe informacje</h2>
         <p>
           Strategia mówi o graniu do poprzedniego high, ale jak mamy słabe,
           marne high (lub low adekwatnie do panującego trendu), tutaj zaledwie
@@ -220,7 +220,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>11. Dodatkowe porady i przykłady - liquidity</h2>
+        <h2 className="navbar">11. Dodatkowe porady i przykłady - liquidity</h2>
         <p>
           Mamy świece, która robi szczyt, robi nam higher high i schodzi w dół
           retestować BoS’a, tutaj powstał knot gdzie mogłaby być już liquidity
@@ -246,7 +246,7 @@ export default function BosPageComponent() {
       </section>
 
       <section>
-        <h2>
+        <h2 className="navbar">
           12. Dodatkowe porady i przykłady - BoS + Fibo (do przetestowania i
           backtestów)
         </h2>

@@ -11,7 +11,7 @@ export default function CvdPageComponent() {
       <h1>CVD – Cumulative Volume Delta</h1>
 
       <section>
-        <h2>1. Wprowadzenie</h2>
+        <h2 className="navbar">1. Wprowadzenie</h2>
         <Image src={cvd1} alt="cvd1" />
         <p>
           CVD (Cumulative Volume Delta) to wskaźnik oparty na rzeczywistej
@@ -29,7 +29,7 @@ export default function CvdPageComponent() {
       </section>
 
       <section>
-        <h2>2. Jak działa CVD?</h2>
+        <h2 className="navbar">2. Jak działa CVD?</h2>
         <Image src={cvd2} alt="cvd2" />
         <p>
           CVD rośnie, gdy na rynku przeważa popyt (agresywne kupno), a spada,
@@ -48,7 +48,7 @@ export default function CvdPageComponent() {
         </p>
       </section>
       <section>
-        <h2>3. Siła trendu i "nabita" delta</h2>
+        <h2 className="navbar">3. Siła trendu i "nabita" delta</h2>
         <p>
           Delte na CVD powinniśmy porównać z deltą na hyblocku, ponieważ jeżeli
           delta będzie „nabita” longującymi, będzie ich wręcz zbyt wiele to
@@ -64,7 +64,7 @@ export default function CvdPageComponent() {
       </section>
 
       <section>
-        <h2>4. Korelacja z ceną</h2>
+        <h2 className="navbar">4. Korelacja z ceną</h2>
         <ul>
           <li>✅ Cena rośnie + CVD rośnie → potwierdzony trend wzrostowy.</li>
           <li>
@@ -78,7 +78,7 @@ export default function CvdPageComponent() {
         </ul>
       </section>
       <section>
-        <h2>5. CVD w kontekście analizy trendu</h2>
+        <h2 className="navbar">5. CVD w kontekście analizy trendu</h2>
         <p>
           CVD jest szczególnie pomocne przy ocenie siły trendu po ruchu
           impulsowym:
@@ -101,7 +101,7 @@ export default function CvdPageComponent() {
         </ul>
       </section>
       <section>
-        <h2>6. Interpretacja ekstremów</h2>
+        <h2 className="navbar">6. Interpretacja ekstremów</h2>
         <p>Gdy CVD osiąga nowe maksima lub minima, może to oznaczać:</p>
         <ul>
           <li>Bardzo silne momentum (przyspieszenie trendu),</li>
@@ -119,7 +119,7 @@ export default function CvdPageComponent() {
       </section>
 
       <section>
-        <h2>7. Zalety i wady CVD</h2>
+        <h2 className="navbar">7. Zalety i wady CVD</h2>
         <p>✅ Zalety:</p>
         <ul>
           <li>Pokazuje rzeczywistą aktywność kupujących i sprzedających.</li>
