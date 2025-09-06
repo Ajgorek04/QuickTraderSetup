@@ -139,6 +139,50 @@ import hyblock1 from "../assets/hyblock/hyblock1.jpg";
 import hyblock2 from "../assets/hyblock/hyblock2.jpg";
 import hyblock3 from "../assets/hyblock/hyblock3.jpg";
 
+import oblogo from "../assets/orderblock/oblogo.jpg";
+import ob1 from "../assets/orderblock/ob1.jpg";
+import ob2 from "../assets/orderblock/ob2.jpg";
+import ob3 from "../assets/orderblock/ob3.jpg";
+import ob4 from "../assets/orderblock/ob4.jpg";
+import ob5 from "../assets/orderblock/ob5.jpg";
+import ob6 from "../assets/orderblock/ob6.jpg";
+import ob7 from "../assets/orderblock/ob7.jpg";
+import ob8 from "../assets/orderblock/ob8.jpg";
+import ob9 from "../assets/orderblock/ob9.jpg";
+import ob10 from "../assets/orderblock/ob10.jpg";
+import ob11 from "../assets/orderblock/ob11.jpg";
+import ob12 from "../assets/orderblock/ob12.jpg";
+import ob13 from "../assets/orderblock/ob13.jpg";
+import ob14 from "../assets/orderblock/ob14.jpg";
+import ob15 from "../assets/orderblock/ob15.jpg";
+import ob16 from "../assets/orderblock/ob16.jpg";
+import ob17 from "../assets/orderblock/ob17.jpg";
+import ob18 from "../assets/orderblock/ob18.jpg";
+import ob19 from "../assets/orderblock/ob19.jpg";
+import ob20 from "../assets/orderblock/ob20.jpg";
+import ob21 from "../assets/orderblock/ob21.jpg";
+import ob22 from "../assets/orderblock/ob22.jpg";
+import ob23 from "../assets/orderblock/ob23.jpg";
+import ob24 from "../assets/orderblock/ob24.jpg";
+import ob25 from "../assets/orderblock/ob25.jpg";
+import ob26 from "../assets/orderblock/ob26.jpg";
+import ob27 from "../assets/orderblock/ob27.jpg";
+import ob28 from "../assets/orderblock/ob28.jpg";
+import ob29 from "../assets/orderblock/ob29.jpg";
+import ob30 from "../assets/orderblock/ob30.jpg";
+import ob31 from "../assets/orderblock/ob31.jpg";
+import ob32 from "../assets/orderblock/ob32.jpg";
+import ob33 from "../assets/orderblock/ob33.jpg";
+import ob34 from "../assets/orderblock/ob34.jpg";
+import ob35 from "../assets/orderblock/ob35.jpg";
+import ob36 from "../assets/orderblock/ob36.jpg";
+import ob37 from "../assets/orderblock/ob37.jpg";
+import ob38 from "../assets/orderblock/ob38.jpg";
+import ob39 from "../assets/orderblock/ob39.jpg";
+import ob40 from "../assets/orderblock/ob40.jpg";
+import ob41 from "../assets/orderblock/ob41.jpg";
+import ob42 from "../assets/orderblock/ob42.jpg";
+
 export {
   fibo1,
   fibo2,
@@ -267,3 +311,49 @@ export {
   hyblock3,
   hyblocklogo,
 };
+
+export const orderBlock = [
+  ob1,
+  ob2,
+  ob3,
+  ob4,
+  ob5,
+  ob6,
+  ob7,
+  ob8,
+  ob9,
+  ob10,
+  ob11,
+  ob12,
+  ob13,
+  ob14,
+  ob15,
+  ob16,
+  ob17,
+  ob18,
+  ob19,
+  ob20,
+  ob21,
+  ob22,
+  ob23,
+  ob24,
+  ob25,
+  ob26,
+  ob27,
+  ob28,
+  ob29,
+  ob30,
+  ob31,
+  ob32,
+  ob33,
+  ob34,
+  ob35,
+  ob36,
+  ob37,
+  ob38,
+  ob39,
+  ob40,
+  ob41,
+  ob42,
+  oblogo,
+];
